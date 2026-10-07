@@ -1,0 +1,1149 @@
+{
+  "schema_version": "0.1.0",
+  "reviewed_on": "2026-10-07",
+  "tools": [
+    {
+      "id": "esim",
+      "name": "eSim",
+      "category": "Circuit Simulation and Calculation",
+      "description": "eSim is an open source EDA tool for circuit design, simulation, analysis and PCB design.",
+      "legacy": true,
+      "url": "https://github.com/FOSSEE/eSim",
+      "github": "FOSSEE/eSim",
+      "links": [
+        "https://github.com/FOSSEE/eSim",
+        "https://esim.fossee.in/home"
+      ],
+      "interfaces": [
+        "netlist",
+        "ngspice-cli"
+      ],
+      "interface_evidence": "https://github.com/FOSSEE/eSim",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/FOSSEE/eSim",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "geckocircuits",
+      "name": "GeckoCIRCUITS",
+      "category": "Circuit Simulation and Calculation",
+      "description": "GeckoCIRCUITS is a fast and easy-to-use circuit simulator optimized for power electronics.",
+      "legacy": true,
+      "url": "https://github.com/geckocircuits/GeckoCIRCUITS",
+      "github": "geckocircuits/GeckoCIRCUITS",
+      "links": [
+        "https://github.com/geckocircuits/GeckoCIRCUITS",
+        "https://de.wikipedia.org/wiki/GeckoCircuits"
+      ],
+      "interfaces": [
+        "java",
+        "scriptable-model"
+      ],
+      "interface_evidence": "https://github.com/geckocircuits/GeckoCIRCUITS",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/geckocircuits/GeckoCIRCUITS",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "gseim",
+      "name": "GSEIM",
+      "category": "Circuit Simulation and Calculation",
+      "description": "GSEIM (General-purpose Simulator with Explicit and Implicit Methods) is meant for simulation of electrical circuits, especially power electronic circuits, and also for numerical solution of ordinary differential equations (ODEs).",
+      "legacy": true,
+      "url": "https://github.com/gseim/gseim",
+      "github": "gseim/gseim",
+      "links": [
+        "https://github.com/gseim/gseim",
+        "https://gseim.github.io/build/html/index.html"
+      ],
+      "interfaces": [
+        "netlist",
+        "cli"
+      ],
+      "interface_evidence": "https://github.com/gseim/gseim",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/gseim/gseim",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release.",
+        "Original GitHub and documentation links returned 404 on review date; project location and current maintenance remain unresolved. Retained for historical value."
+      ]
+    },
+    {
+      "id": "motulator",
+      "name": "motulator",
+      "category": "Circuit Simulation and Calculation",
+      "description": "motulator is an open-source motor drive simulator in Python. It contains models for induction machines, synchronous reluctance machines, and permanent-magnet synchronous machines as well as various control methods as examples.",
+      "legacy": true,
+      "url": "https://github.com/Aalto-Electric-Drives/motulator",
+      "github": "Aalto-Electric-Drives/motulator",
+      "links": [
+        "https://github.com/Aalto-Electric-Drives/motulator",
+        "https://aalto-electric-drives.github.io/motulator/",
+        "https://aalto-electric-drives.github.io/motulator/auto_examples/index.html"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://github.com/Aalto-Electric-Drives/motulator",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/Aalto-Electric-Drives/motulator",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "pygeckocircuits2",
+      "name": "PyGeckoCircuits2",
+      "category": "Circuit Simulation and Calculation",
+      "description": "A Python wrapper for GeckoCIRCUITS.",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/pygeckocircuits2",
+      "github": "upb-lea/pygeckocircuits2",
+      "links": [
+        "https://github.com/upb-lea/pygeckocircuits2",
+        "https://upb-lea.github.io/pygeckocircuits2/intro.html"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/pygeckocircuits2",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/upb-lea/pygeckocircuits2",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "transistordatabase",
+      "name": "transistordatabase",
+      "category": "Circuit Simulation and Calculation",
+      "description": "A unified software engineering tool for managing and evaluating power transistors",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/transistordatabase",
+      "github": "upb-lea/transistordatabase",
+      "links": [
+        "https://github.com/upb-lea/transistordatabase",
+        "https://upb-lea.github.io/transistordatabase/main/index.html",
+        "https://pypi.org/project/transistordatabase/"
+      ],
+      "interfaces": [
+        "python",
+        "json"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/transistordatabase",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/upb-lea/transistordatabase",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "circuitikz",
+      "name": "CircuiTikZ",
+      "category": "Drawing and Documentation",
+      "description": "Set of macros on top of TikZ for typesetting electrical and electronic networks native to LaTeX",
+      "legacy": true,
+      "url": "https://github.com/circuitikz/circuitikz",
+      "github": "circuitikz/circuitikz",
+      "links": [
+        "https://github.com/circuitikz/circuitikz",
+        "https://ctan.org/pkg/circuitikz"
+      ],
+      "interfaces": [
+        "latex"
+      ],
+      "interface_evidence": "https://github.com/circuitikz/circuitikz",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/circuitikz/circuitikz",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "circuitikz-for-inkscape",
+      "name": "CircuiTikZ for Inkscape",
+      "category": "Drawing and Documentation",
+      "description": "CircuiTikZ for Inkscape",
+      "legacy": true,
+      "url": "https://github.com/medwatt/circuitikz_symbols",
+      "github": "medwatt/circuitikz_symbols",
+      "links": [
+        "https://github.com/medwatt/circuitikz_symbols"
+      ],
+      "interfaces": [
+        "svg"
+      ],
+      "interface_evidence": "https://github.com/medwatt/circuitikz_symbols",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/medwatt/circuitikz_symbols",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "draw-io-desktop",
+      "name": "draw.io Desktop",
+      "category": "Drawing and Documentation",
+      "description": "Multiplatform diagramming and whiteboarding tool with electronics symbols",
+      "legacy": true,
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "github": "jgraph/drawio-desktop",
+      "links": [
+        "https://github.com/jgraph/drawio-desktop",
+        "https://www.draw.io"
+      ],
+      "interfaces": [
+        "cli",
+        "xml"
+      ],
+      "interface_evidence": "https://github.com/jgraph/drawio-desktop",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/jgraph/drawio-desktop",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "draw-io-electrical-engineering",
+      "name": "draw.io Electrical Engineering",
+      "category": "Drawing and Documentation",
+      "description": "Drawing electrical engineering and computer-science related diagrams, such as circuits and control-architectures in draw.io.",
+      "legacy": true,
+      "url": "https://github.com/NicklasVraa/Draw-io-ECE/tree/master",
+      "github": "NicklasVraa/Draw-io-ECE",
+      "links": [
+        "https://github.com/NicklasVraa/Draw-io-ECE/tree/master"
+      ],
+      "interfaces": [
+        "xml-symbol-library"
+      ],
+      "interface_evidence": "https://github.com/NicklasVraa/Draw-io-ECE/tree/master",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/NicklasVraa/Draw-io-ECE/tree/master",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "inkscape-circuit-symbols-inkscape-extension",
+      "name": "Inkscape Circuit Symbols (Inkscape Extension)",
+      "category": "Drawing and Documentation",
+      "description": "Circuit Symbols as Inkscape extension",
+      "legacy": true,
+      "url": "https://github.com/fsmMLK/inkscapeCircuitSymbols",
+      "github": "fsmMLK/inkscapeCircuitSymbols",
+      "links": [
+        "https://github.com/fsmMLK/inkscapeCircuitSymbols"
+      ],
+      "interfaces": [
+        "python-extension"
+      ],
+      "interface_evidence": "https://github.com/fsmMLK/inkscapeCircuitSymbols",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/fsmMLK/inkscapeCircuitSymbols",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "inkscape-electric-symbols",
+      "name": "Inkscape Electric Symbols",
+      "category": "Drawing and Documentation",
+      "description": "Electrical symbol library for the vector graphics program Inkscape.",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/Inkscape_electric_Symbols",
+      "github": "upb-lea/Inkscape_electric_Symbols",
+      "links": [
+        "https://github.com/upb-lea/Inkscape_electric_Symbols"
+      ],
+      "interfaces": [
+        "svg-symbol-library"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/Inkscape_electric_Symbols",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/upb-lea/Inkscape_electric_Symbols",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "ai-mag",
+      "name": "AI-mag",
+      "category": "Magnetics",
+      "description": "Inductor Modeling and Design using Artificial Neural Network and Finite Element Method",
+      "legacy": true,
+      "url": "https://ai-mag.github.io/",
+      "github": "ethz-pes/AI-mag",
+      "links": [
+        "https://ai-mag.github.io/",
+        "https://github.com/ethz-pes/AI-mag"
+      ],
+      "interfaces": [
+        "python",
+        "matlab"
+      ],
+      "interface_evidence": "https://ai-mag.github.io/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://ai-mag.github.io/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "elmer",
+      "name": "Elmer",
+      "category": "Magnetics",
+      "description": "Finite element software for multiphysical problems including electro-thermal domains",
+      "legacy": true,
+      "url": "http://www.elmerfem.org/",
+      "github": "ElmerCSC/elmerfem",
+      "links": [
+        "http://www.elmerfem.org/",
+        "https://github.com/ElmerCSC/elmerfem"
+      ],
+      "interfaces": [
+        "cli",
+        "sif"
+      ],
+      "interface_evidence": "http://www.elmerfem.org/",
+      "license": "NOASSERTION",
+      "license_evidence": "http://www.elmerfem.org/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "femm",
+      "name": "FEMM",
+      "category": "Magnetics",
+      "description": "A Windows finite element solver for 2D and axisymmetric magnetic, electrostatic, heat flow, and current flow problems with graphical pre- and post-processors.",
+      "legacy": true,
+      "url": "https://www.femm.info/",
+      "github": null,
+      "links": [
+        "https://www.femm.info/",
+        "https://www.femm.info/wiki/HomePage",
+        "https://femm.info/doku/doku.php?id=Download"
+      ],
+      "interfaces": [
+        "lua",
+        "python",
+        "octave"
+      ],
+      "interface_evidence": "https://www.femm.info/",
+      "license": "Aladdin",
+      "license_evidence": "https://femm.info/doku/doku.php?id=Download",
+      "licence_class": "source_available",
+      "limitations": [
+        "Aladdin Free Public License restricts redistribution; do not classify as OSI open source. Native Windows; 2D/axisymmetric problems only."
+      ]
+    },
+    {
+      "id": "femmt",
+      "name": "FEMMT",
+      "category": "Magnetics",
+      "description": "Python toolbox to generate preconfigured structures for FEM simulation tools in power electronics",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/FEM_Magnetics_Toolbox",
+      "github": "upb-lea/FEM_Magnetics_Toolbox",
+      "links": [
+        "https://github.com/upb-lea/FEM_Magnetics_Toolbox"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/FEM_Magnetics_Toolbox",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/upb-lea/FEM_Magnetics_Toolbox",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "getdp",
+      "name": "GetDP",
+      "category": "Magnetics",
+      "description": "GetDP is a free finite element solver using mixed elements to discretize de Rham-type complexes in one, two and three dimensions.",
+      "legacy": true,
+      "url": "https://getdp.info/",
+      "github": null,
+      "links": [
+        "https://getdp.info/",
+        "https://gitlab.onelab.info/getdp/getdp",
+        "https://getdp.info/doc/texinfo/getdp.html"
+      ],
+      "interfaces": [
+        "cli",
+        "pro"
+      ],
+      "interface_evidence": "https://getdp.info/doc/texinfo/getdp.html",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://getdp.info/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "gmsh",
+      "name": "Gmsh",
+      "category": "Magnetics",
+      "description": "Gmsh is an open source 3D finite element mesh generator with a built-in CAD engine and post-processor",
+      "legacy": true,
+      "url": "https://gmsh.info/",
+      "github": null,
+      "links": [
+        "https://gmsh.info/",
+        "https://en.wikipedia.org/wiki/Gmsh",
+        "https://gitlab.onelab.info/gmsh/gmsh",
+        "https://gmsh.info/doc/texinfo/gmsh.html"
+      ],
+      "interfaces": [
+        "cli",
+        "python",
+        "c++",
+        "geo"
+      ],
+      "interface_evidence": "https://gmsh.info/doc/texinfo/gmsh.html",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://gmsh.info/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "litz-wire-losses-with-fem-and-matlab",
+      "name": "Litz Wire Losses with FEM and MATLAB",
+      "category": "Magnetics",
+      "description": "Litz Wire Losses with FEM and MATLAB",
+      "legacy": true,
+      "url": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab",
+      "github": "ethz-pes/litz_wire_losses_fem_matlab",
+      "links": [
+        "https://github.com/ethz-pes/litz_wire_losses_fem_matlab"
+      ],
+      "interfaces": [
+        "matlab"
+      ],
+      "interface_evidence": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab",
+      "licence_class": "unverified",
+      "limitations": [
+        "Source availability does not remove the MATLAB runtime licence requirement; Octave compatibility has not been established."
+      ]
+    },
+    {
+      "id": "magnet",
+      "name": "Magnet",
+      "category": "Magnetics",
+      "description": "Data Driven Methods for Magnetic Core Loss Modeling",
+      "legacy": true,
+      "url": "https://mag-net.princeton.edu/",
+      "github": "PrincetonUniversity/Magnet",
+      "links": [
+        "https://mag-net.princeton.edu/",
+        "https://github.com/PrincetonUniversity/Magnet"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://mag-net.princeton.edu/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://mag-net.princeton.edu/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "magnetic-components-toolbox-matlab",
+      "name": "Magnetic Components Toolbox MATLAB",
+      "category": "Magnetics",
+      "description": "MATLAB Toolbox for Power Magnetics: Model and Optimization",
+      "legacy": true,
+      "url": "https://github.com/otvam/magnetic_components_toolbox_matlab",
+      "github": "otvam/magnetic_components_toolbox_matlab",
+      "links": [
+        "https://github.com/otvam/magnetic_components_toolbox_matlab"
+      ],
+      "interfaces": [
+        "matlab"
+      ],
+      "interface_evidence": "https://github.com/otvam/magnetic_components_toolbox_matlab",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/otvam/magnetic_components_toolbox_matlab",
+      "licence_class": "unverified",
+      "limitations": [
+        "Source availability does not remove the MATLAB runtime licence requirement; Octave compatibility has not been established."
+      ]
+    },
+    {
+      "id": "magnetic-mirroring-method-with-matlab",
+      "name": "Magnetic Mirroring Method with MATLAB",
+      "category": "Magnetics",
+      "description": "Magnetic Mirroring Method with MATLAB",
+      "legacy": true,
+      "url": "https://github.com/ethz-pes/mirroring_method_matlab",
+      "github": "ethz-pes/mirroring_method_matlab",
+      "links": [
+        "https://github.com/ethz-pes/mirroring_method_matlab"
+      ],
+      "interfaces": [
+        "matlab"
+      ],
+      "interface_evidence": "https://github.com/ethz-pes/mirroring_method_matlab",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/ethz-pes/mirroring_method_matlab",
+      "licence_class": "unverified",
+      "limitations": [
+        "Source availability does not remove the MATLAB runtime licence requirement; Octave compatibility has not been established."
+      ]
+    },
+    {
+      "id": "om",
+      "name": "OM",
+      "category": "Magnetics",
+      "description": "OpenMagnetics (OM) is a project providing a common language for defining any kind of magnetic for power electronics.",
+      "legacy": true,
+      "url": "https://openmagnetics.com/",
+      "github": "OpenMagnetics/MAS",
+      "links": [
+        "https://openmagnetics.com/",
+        "https://github.com/OpenMagnetics/MAS"
+      ],
+      "interfaces": [
+        "json-schema"
+      ],
+      "interface_evidence": "https://openmagnetics.com/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://openmagnetics.com/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "onelab",
+      "name": "ONELAB",
+      "category": "Magnetics",
+      "description": "ONELAB is an open-source, lightweight interface to finite element software",
+      "legacy": true,
+      "url": "https://www.onelab.info/",
+      "github": null,
+      "links": [
+        "https://www.onelab.info/",
+        "https://gitlab.onelab.info/explore/projects"
+      ],
+      "interfaces": [
+        "cli",
+        "parameter-api"
+      ],
+      "interface_evidence": "https://www.onelab.info/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://www.onelab.info/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Gmsh/GetDP interface ecosystem, not a duplicate solver. Licence and activity vary by component."
+      ]
+    },
+    {
+      "id": "sparselizard",
+      "name": "Sparselizard",
+      "category": "Magnetics",
+      "description": "FEM simulation software",
+      "legacy": true,
+      "url": "https://www.sparselizard.org/",
+      "github": "halbux/sparselizard",
+      "links": [
+        "https://www.sparselizard.org/",
+        "https://github.com/halbux/sparselizard/"
+      ],
+      "interfaces": [
+        "c++"
+      ],
+      "interface_evidence": "https://www.sparselizard.org/",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://www.sparselizard.org/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "horizon",
+      "name": "Horizon",
+      "category": "Schematics and Layout",
+      "description": "Schematic and layout editor with focus on simple part management.",
+      "legacy": true,
+      "url": "https://horizon-eda.org/",
+      "github": "horizon-eda/horizon",
+      "links": [
+        "https://horizon-eda.org/",
+        "https://github.com/horizon-eda/horizon",
+        "https://horizon-eda.readthedocs.io/en/latest/"
+      ],
+      "interfaces": [
+        "cli",
+        "json"
+      ],
+      "interface_evidence": "https://horizon-eda.org/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://horizon-eda.org/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "kicad",
+      "name": "KiCad",
+      "category": "Schematics and Layout",
+      "description": "Schematic and layout editor.",
+      "legacy": true,
+      "url": "https://www.kicad.org/",
+      "github": "KiCad/kicad-source-mirror",
+      "links": [
+        "https://www.kicad.org/",
+        "https://en.wikipedia.org/wiki/KiCad",
+        "https://gitlab.com/kicad",
+        "https://docs.kicad.org/9.0/en/cli/cli.html"
+      ],
+      "interfaces": [
+        "cli",
+        "python",
+        "ipc"
+      ],
+      "interface_evidence": "https://docs.kicad.org/9.0/en/cli/cli.html",
+      "license": "NOASSERTION",
+      "license_evidence": "https://www.kicad.org/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "kiclearance",
+      "name": "KiClearance",
+      "category": "Schematics and Layout",
+      "description": "Generate clearance rules for KiCAD by a human-readable easy-to-use table.",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/KiClearance",
+      "github": "upb-lea/KiClearance",
+      "links": [
+        "https://github.com/upb-lea/KiClearance",
+        "https://upb-lea.github.io/KiClearance/intro.html"
+      ],
+      "interfaces": [
+        "python",
+        "kicad-rule-file"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/KiClearance",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/upb-lea/KiClearance",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "librepcb",
+      "name": "LibrePCB",
+      "category": "Schematics and Layout",
+      "description": "A powerful, innovative and intuitive EDA tool for everyone!",
+      "legacy": true,
+      "url": "https://librepcb.org/",
+      "github": "LibrePCB/LibrePCB",
+      "links": [
+        "https://librepcb.org/",
+        "https://github.com/LibrePCB/LibrePCB",
+        "https://librepcb.org/docs/"
+      ],
+      "interfaces": [
+        "cli",
+        "project-files"
+      ],
+      "interface_evidence": "https://librepcb.org/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://librepcb.org/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "julia",
+      "name": "Julia",
+      "category": "Calculation and Automatisation",
+      "description": "Programming language",
+      "legacy": true,
+      "url": "https://www.julialang.org/",
+      "github": "JuliaLang/julia",
+      "links": [
+        "https://www.julialang.org/",
+        "https://en.wikipedia.org/wiki/Julia_(programming_language)",
+        "https://github.com/JuliaLang/julia"
+      ],
+      "interfaces": [
+        "cli",
+        "julia"
+      ],
+      "interface_evidence": "https://www.julialang.org/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://www.julialang.org/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "octave",
+      "name": "Octave",
+      "category": "Calculation and Automatisation",
+      "description": "Numerical programming language",
+      "legacy": true,
+      "url": "https://www.gnu.org/software/octave/",
+      "github": null,
+      "links": [
+        "https://www.gnu.org/software/octave/",
+        "https://en.wikipedia.org/wiki/GNU_Octave",
+        "https://gitlab.com/gnu-octave/octave",
+        "https://octave.org/license.html"
+      ],
+      "interfaces": [
+        "cli",
+        "octave"
+      ],
+      "interface_evidence": "https://www.gnu.org/software/octave/",
+      "license": "GPL-3.0-or-later",
+      "license_evidence": "https://octave.org/license.html",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "Calculation and Automatisation",
+      "description": "Programming language",
+      "legacy": true,
+      "url": "https://www.python.org/",
+      "github": "python/cpython",
+      "links": [
+        "https://www.python.org/",
+        "https://en.wikipedia.org/wiki/Python_(programming_language)",
+        "https://github.com/python/",
+        "https://docs.python.org/3/license.html"
+      ],
+      "interfaces": [
+        "cli",
+        "python"
+      ],
+      "interface_evidence": "https://www.python.org/",
+      "license": "Python-2.0",
+      "license_evidence": "https://docs.python.org/3/license.html",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ]
+    },
+    {
+      "id": "scilab-xcos",
+      "name": "Scilab/Xcos",
+      "category": "Calculation and Automatisation",
+      "description": "Numerical programming language and dynamic system simulator",
+      "legacy": true,
+      "url": "https://www.scilab.org/",
+      "github": null,
+      "links": [
+        "https://www.scilab.org/",
+        "https://en.wikipedia.org/wiki/Scilab",
+        "https://gitlab.com/scilab/scilab/"
+      ],
+      "interfaces": [
+        "cli",
+        "scilab"
+      ],
+      "interface_evidence": "https://www.scilab.org/",
+      "license": "GPL-2.0-only",
+      "license_evidence": "https://www.scilab.org/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release.",
+        "Current Scilab licence stated at https://www.scilab.org/about/scilab-open-source-software; older versions differ."
+      ]
+    },
+    {
+      "id": "amdc",
+      "name": "AMDC",
+      "category": "Control Platform",
+      "description": "Advanced Motor Drive Controller",
+      "legacy": true,
+      "url": "https://docs.amdc.dev/",
+      "github": "Severson-Group/AMDC-Hardware",
+      "links": [
+        "https://docs.amdc.dev/",
+        "https://github.com/Severson-Group/AMDC-Hardware",
+        "https://github.com/Severson-Group/AMDC-Firmware"
+      ],
+      "interfaces": [
+        "firmware",
+        "hardware"
+      ],
+      "interface_evidence": "https://docs.amdc.dev/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://docs.amdc.dev/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Hardware build/purchase and target-specific toolchains required; software simulation does not replace this hardware workflow."
+      ]
+    },
+    {
+      "id": "lcb-lea-control-board",
+      "name": "LCB - LEA Control Board",
+      "category": "Control Platform",
+      "description": "Control board for power electronics usage.",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "github": "upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "links": [
+        "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board"
+      ],
+      "interfaces": [
+        "hardware"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "licence_class": "unverified",
+      "limitations": [
+        "Hardware build/purchase and target-specific toolchains required; software simulation does not replace this hardware workflow."
+      ]
+    },
+    {
+      "id": "ultrazohm",
+      "name": "UltraZohm",
+      "category": "Control Platform",
+      "description": "Open Source Rapid Control Prototyping Platform",
+      "legacy": true,
+      "url": "https://docs.ultrazohm.com/",
+      "github": null,
+      "links": [
+        "https://docs.ultrazohm.com/",
+        "https://bitbucket.org/ultrazohm/ultrazohm_sw/"
+      ],
+      "interfaces": [
+        "firmware",
+        "hardware"
+      ],
+      "interface_evidence": "https://docs.ultrazohm.com/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://docs.ultrazohm.com/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Hardware build/purchase and target-specific toolchains required; software simulation does not replace this hardware workflow."
+      ]
+    },
+    {
+      "id": "ngspice",
+      "name": "ngspice",
+      "category": "circuit-simulation",
+      "description": "circuit-simulation",
+      "legacy": false,
+      "url": "https://ngspice.sourceforge.io/",
+      "github": "ngspice/ngspice",
+      "links": [
+        "https://ngspice.sourceforge.io/",
+        "https://github.com/ngspice/ngspice",
+        "https://ngspice.sourceforge.io/devel.html",
+        "https://ngspice.sourceforge.io/docs.html"
+      ],
+      "interfaces": [
+        "cli",
+        "shared-library",
+        "netlist"
+      ],
+      "interface_evidence": "https://ngspice.sourceforge.io/docs.html",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://ngspice.sourceforge.io/devel.html",
+      "licence_class": "open_source",
+      "limitations": [
+        "Device model dialects require checks; component licences differ.",
+        "GitHub repository is a historical mirror; official SourceForge documentation lists newer maintained releases. Do not infer abandonment from mirror activity."
+      ]
+    },
+    {
+      "id": "python-control",
+      "name": "python-control",
+      "category": "control",
+      "description": "control",
+      "legacy": false,
+      "url": "https://python-control.org/",
+      "github": "python-control/python-control",
+      "links": [
+        "https://python-control.org/",
+        "https://github.com/python-control/python-control",
+        "https://python-control.readthedocs.io/"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://python-control.readthedocs.io/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/python-control/python-control",
+      "licence_class": "open_source",
+      "limitations": [
+        "Linear averaged analysis does not resolve switching or saturation."
+      ]
+    },
+    {
+      "id": "numpy",
+      "name": "NumPy",
+      "category": "numerical-analysis",
+      "description": "numerical-analysis",
+      "legacy": false,
+      "url": "https://numpy.org/",
+      "github": "numpy/numpy",
+      "links": [
+        "https://numpy.org/",
+        "https://github.com/numpy/numpy",
+        "https://numpy.org/doc/"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://numpy.org/doc/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/numpy/numpy",
+      "licence_class": "open_source",
+      "limitations": [
+        "Array computation requires an independently justified physical model."
+      ]
+    },
+    {
+      "id": "scipy",
+      "name": "SciPy",
+      "category": "optimisation",
+      "description": "optimisation",
+      "legacy": false,
+      "url": "https://scipy.org/",
+      "github": "scipy/scipy",
+      "links": [
+        "https://scipy.org/",
+        "https://github.com/scipy/scipy",
+        "https://docs.scipy.org/doc/scipy/"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://docs.scipy.org/doc/scipy/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/scipy/scipy",
+      "licence_class": "open_source",
+      "limitations": [
+        "Optimisation convergence does not prove global optimality."
+      ]
+    },
+    {
+      "id": "sympy",
+      "name": "SymPy",
+      "category": "symbolic-analysis",
+      "description": "symbolic-analysis",
+      "legacy": false,
+      "url": "https://www.sympy.org/",
+      "github": "sympy/sympy",
+      "links": [
+        "https://www.sympy.org/",
+        "https://github.com/sympy/sympy",
+        "https://docs.sympy.org/"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://docs.sympy.org/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/sympy/sympy",
+      "licence_class": "open_source",
+      "limitations": [
+        "Symbolic assumptions and units need explicit checking."
+      ]
+    },
+    {
+      "id": "jupyterlab",
+      "name": "JupyterLab",
+      "category": "documentation",
+      "description": "documentation",
+      "legacy": false,
+      "url": "https://jupyter.org/",
+      "github": "jupyterlab/jupyterlab",
+      "links": [
+        "https://jupyter.org/",
+        "https://github.com/jupyterlab/jupyterlab",
+        "https://jupyterlab.readthedocs.io/"
+      ],
+      "interfaces": [
+        "python",
+        "cli",
+        "notebook"
+      ],
+      "interface_evidence": "https://jupyterlab.readthedocs.io/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/jupyterlab/jupyterlab",
+      "licence_class": "open_source",
+      "limitations": [
+        "Notebooks execute code; clean-run before citing results."
+      ]
+    },
+    {
+      "id": "freecad",
+      "name": "FreeCAD",
+      "category": "mechanical-cad",
+      "description": "mechanical-cad",
+      "legacy": false,
+      "url": "https://www.freecad.org/",
+      "github": "FreeCAD/FreeCAD",
+      "links": [
+        "https://www.freecad.org/",
+        "https://github.com/FreeCAD/FreeCAD",
+        "https://freecad.github.io/DevelopersHandbook/codeformatting/Copyright-Headers.html",
+        "https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/Python_scripting_tutorial.md"
+      ],
+      "interfaces": [
+        "python",
+        "cli",
+        "macro"
+      ],
+      "interface_evidence": "https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/Python_scripting_tutorial.md",
+      "license": "LGPL-2.1-or-later",
+      "license_evidence": "https://freecad.github.io/DevelopersHandbook/codeformatting/Copyright-Headers.html",
+      "licence_class": "open_source",
+      "limitations": [
+        "FreeCAD geometric lengths are millimetres; convert SI inputs. GUI-bound operations need a GUI process."
+      ]
+    },
+    {
+      "id": "openmodelica",
+      "name": "OpenModelica",
+      "category": "system-simulation",
+      "description": "system-simulation",
+      "legacy": false,
+      "url": "https://openmodelica.org/",
+      "github": "OpenModelica/OpenModelica",
+      "links": [
+        "https://openmodelica.org/",
+        "https://github.com/OpenModelica/OpenModelica",
+        "https://openmodelica.org/osmc-pl/osmc-pl-1.8.txt",
+        "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/"
+      ],
+      "interfaces": [
+        "cli",
+        "modelica",
+        "python-ompython"
+      ],
+      "interface_evidence": "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://openmodelica.org/osmc-pl/osmc-pl-1.8.txt",
+      "licence_class": "unverified",
+      "limitations": [
+        "Check OSMC-PL and component/library terms; model libraries carry independent rights."
+      ]
+    },
+    {
+      "id": "calculix",
+      "name": "CalculiX",
+      "category": "structural-thermal-fea",
+      "description": "structural-thermal-fea",
+      "legacy": false,
+      "url": "https://www.calculix.de/",
+      "github": null,
+      "links": [
+        "https://www.calculix.de/",
+        "https://www.dhondt.de/"
+      ],
+      "interfaces": [
+        "cli",
+        "inp"
+      ],
+      "interface_evidence": "https://www.dhondt.de/",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://www.calculix.de/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Structural and thermal modelling; not a general electromagnetic solver."
+      ]
+    },
+    {
+      "id": "openems",
+      "name": "openEMS",
+      "category": "high-frequency-em",
+      "description": "high-frequency-em",
+      "legacy": false,
+      "url": "https://www.openems.de/",
+      "github": "thliebig/openEMS",
+      "links": [
+        "https://www.openems.de/",
+        "https://github.com/thliebig/openEMS",
+        "https://docs.openems.de/"
+      ],
+      "interfaces": [
+        "python",
+        "octave",
+        "cli"
+      ],
+      "interface_evidence": "https://docs.openems.de/",
+      "license": "GPL-3.0-or-later",
+      "license_evidence": "https://github.com/thliebig/openEMS",
+      "licence_class": "open_source",
+      "limitations": [
+        "FDTD mesh/time-step constraints; not a drop-in magnetic core-loss solver."
+      ]
+    },
+    {
+      "id": "inkscape",
+      "name": "Inkscape",
+      "category": "documentation",
+      "description": "documentation",
+      "legacy": false,
+      "url": "https://inkscape.org/",
+      "github": null,
+      "links": [
+        "https://inkscape.org/",
+        "https://inkscape.org/about/license/",
+        "https://inkscape.org/doc/inkscape-man.html"
+      ],
+      "interfaces": [
+        "cli",
+        "svg",
+        "python-extension"
+      ],
+      "interface_evidence": "https://inkscape.org/doc/inkscape-man.html",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://inkscape.org/about/license/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Drawing output does not imply electrically validated schematics."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "reviewed_on": "2026-10-07",
+  "connectors": [
+    {
+      "id": "freecad-mcp-neka-nat", "tool": "freecad", "github": "neka-nat/freecad-mcp",
+      "repository": "https://github.com/neka-nat/freecad-mcp",
+      "links": ["https://github.com/neka-nat/freecad-mcp"],
+      "license": "MIT", "status": "evaluated",
+      "supported_versions": "FreeCAD plus addon; no comprehensive upstream tested-version matrix established",
+      "platforms": ["windows", "linux", "macos"],
+      "api_surface": ["model editing", "Python execution", "document inspection", "FEM orchestration"],
+      "security_notes": ["RPC defaults to localhost; Python execution inherits process and filesystem privileges.", "Pin a reviewed commit and dependencies; keep the RPC port local and use scratch documents."],
+      "direct_alternative": "FreeCAD Python / FreeCADCmd for deterministic non-GUI modelling",
+      "execution_validation": "not installed or executed",
+      "decision": "candidate only; direct API/CLI is the v0.1 default"
+    },
+    {
+      "id": "kicad-mcp-mixelpixx", "tool": "kicad", "github": "mixelpixx/KiCAD-MCP-Server",
+      "repository": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+      "links": ["https://github.com/mixelpixx/KiCAD-MCP-Server"],
+      "license": "MIT", "status": "evaluated",
+      "supported_versions": "KiCad 9+; upstream quick start requires Node 18+ and Python 3.11+",
+      "platforms": ["windows", "linux", "macos"],
+      "api_surface": ["schematic and PCB edits", "ERC/DRC", "exports", "optional parts/routing integrations"],
+      "security_notes": ["May modify boards/libraries and spawn subprocesses; optional integrations have network access.", "Pin a reviewed release, restrict workspace and disable unused services; independently review ERC/DRC."],
+      "direct_alternative": "kicad-cli ERC/DRC/export; KiCad 9+ IPC for supported live board edits",
+      "execution_validation": "not installed or executed",
+      "decision": "candidate only; direct API/CLI is the v0.1 default"
+    }
+  ]
+}

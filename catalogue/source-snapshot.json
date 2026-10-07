@@ -1,0 +1,1176 @@
+{
+  "schema_version": "0.1.0",
+  "reviewed_on": "2026-10-07",
+  "method": "GitHub repository/default-branch commit API; bounded HTTP GET (404/410 broken; other failures inconclusive)",
+  "repositories": [
+    {
+      "repository": "Aalto-Electric-Drives/motulator",
+      "status": "observed",
+      "canonical_url": "https://github.com/Aalto-Electric-Drives/motulator",
+      "archived": false,
+      "pushed_at": "2026-10-06T19:30:53Z",
+      "default_branch": "main",
+      "license": "MIT",
+      "commit": "9bd7eb1cb258334ce7fd6c4976a884aa613288a6",
+      "committed_at": "2026-10-06T18:51:24Z",
+      "source": "https://api.github.com/repos/Aalto-Electric-Drives/motulator"
+    },
+    {
+      "repository": "ElmerCSC/elmerfem",
+      "status": "observed",
+      "canonical_url": "https://github.com/ElmerCSC/elmerfem",
+      "archived": false,
+      "pushed_at": "2026-10-07T03:38:42Z",
+      "default_branch": "devel",
+      "license": "NOASSERTION",
+      "commit": "62f843db541ffa0b711b7db2ee91a72a5e3b7bc3",
+      "committed_at": "2026-10-07T03:38:42Z",
+      "source": "https://api.github.com/repos/ElmerCSC/elmerfem"
+    },
+    {
+      "repository": "FOSSEE/eSim",
+      "status": "observed",
+      "canonical_url": "https://github.com/FOSSEE/eSim",
+      "archived": false,
+      "pushed_at": "2026-09-27T15:45:56Z",
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "commit": "1a25a46ce15e0ccc35296dd513f40249c089a5a7",
+      "committed_at": "2026-09-27T15:45:56Z",
+      "source": "https://api.github.com/repos/FOSSEE/eSim"
+    },
+    {
+      "repository": "FreeCAD/FreeCAD",
+      "status": "observed",
+      "canonical_url": "https://github.com/FreeCAD/FreeCAD",
+      "archived": false,
+      "pushed_at": "2026-10-07T03:35:14Z",
+      "default_branch": "main",
+      "license": "LGPL-2.1",
+      "commit": "876271d6605a47805742e34c88cf31993398bdf9",
+      "committed_at": "2026-10-07T03:34:35Z",
+      "source": "https://api.github.com/repos/FreeCAD/FreeCAD"
+    },
+    {
+      "repository": "JuliaLang/julia",
+      "status": "observed",
+      "canonical_url": "https://github.com/JuliaLang/julia",
+      "archived": false,
+      "pushed_at": "2026-10-07T02:04:39Z",
+      "default_branch": "master",
+      "license": "MIT",
+      "commit": "cdf658ede7a3970918e6d6be1b8689d7773c735a",
+      "committed_at": "2026-10-06T17:09:59Z",
+      "source": "https://api.github.com/repos/JuliaLang/julia"
+    },
+    {
+      "repository": "KiCad/kicad-source-mirror",
+      "status": "observed",
+      "canonical_url": "https://github.com/KiCad/kicad-source-mirror",
+      "archived": false,
+      "pushed_at": "2026-10-06T23:58:10Z",
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "commit": "32b73c9ccc94c990827e8d100345d0414bb952d9",
+      "committed_at": "2026-10-06T23:57:56Z",
+      "source": "https://api.github.com/repos/KiCad/kicad-source-mirror"
+    },
+    {
+      "repository": "LibrePCB/LibrePCB",
+      "status": "observed",
+      "canonical_url": "https://github.com/LibrePCB/LibrePCB",
+      "archived": false,
+      "pushed_at": "2026-10-06T20:24:28Z",
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "commit": "6c061150a88f65d2393fcaaa783a8c41cbaaca5c",
+      "committed_at": "2026-10-06T20:23:47Z",
+      "source": "https://api.github.com/repos/LibrePCB/LibrePCB"
+    },
+    {
+      "repository": "NicklasVraa/Draw-io-ECE",
+      "status": "observed",
+      "canonical_url": "https://github.com/NicklasVraa/Draw-io-ECE",
+      "archived": false,
+      "pushed_at": "2024-08-17T12:03:38Z",
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "commit": "86a395d01c20e59c89261af5e1e07e92820d9c36",
+      "committed_at": "2024-08-17T12:03:36Z",
+      "source": "https://api.github.com/repos/NicklasVraa/Draw-io-ECE"
+    },
+    {
+      "repository": "OpenMagnetics/MAS",
+      "status": "observed",
+      "canonical_url": "https://github.com/Power-Supply-Manufacturers-Association/MAS",
+      "archived": false,
+      "pushed_at": "2026-10-03T18:42:05Z",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "commit": "0a7ba58f542049fd073041b3b5e4bac431ed6292",
+      "committed_at": "2026-10-03T13:07:37Z",
+      "source": "https://api.github.com/repos/OpenMagnetics/MAS"
+    },
+    {
+      "repository": "OpenModelica/OpenModelica",
+      "status": "observed",
+      "canonical_url": "https://github.com/OpenModelica/OpenModelica",
+      "archived": false,
+      "pushed_at": "2026-10-06T18:29:22Z",
+      "default_branch": "master",
+      "license": "NOASSERTION",
+      "commit": "6e251077f0cf1175f462591d81d863e57f2bc346",
+      "committed_at": "2026-10-06T18:24:56Z",
+      "source": "https://api.github.com/repos/OpenModelica/OpenModelica"
+    },
+    {
+      "repository": "PrincetonUniversity/Magnet",
+      "status": "observed",
+      "canonical_url": "https://github.com/PrincetonUniversity/magnet",
+      "archived": false,
+      "pushed_at": "2026-05-12T01:26:57Z",
+      "default_branch": "main",
+      "license": "MIT",
+      "commit": "8a6892e91ac622e42f8b9182a6dfe9094ceea97a",
+      "committed_at": "2026-05-12T01:26:57Z",
+      "source": "https://api.github.com/repos/PrincetonUniversity/Magnet"
+    },
+    {
+      "repository": "Severson-Group/AMDC-Hardware",
+      "status": "observed",
+      "canonical_url": "https://github.com/Severson-Group/AMDC-Hardware",
+      "archived": false,
+      "pushed_at": "2026-08-01T20:02:22Z",
+      "default_branch": "develop",
+      "license": "NOASSERTION",
+      "commit": "b7a474b5bae943581e958aab3dac3c55e012a097",
+      "committed_at": "2026-08-01T19:58:27Z",
+      "source": "https://api.github.com/repos/Severson-Group/AMDC-Hardware"
+    },
+    {
+      "repository": "circuitikz/circuitikz",
+      "status": "observed",
+      "canonical_url": "https://github.com/circuitikz/circuitikz",
+      "archived": false,
+      "pushed_at": "2026-09-12T18:14:47Z",
+      "default_branch": "master",
+      "license": "NOASSERTION",
+      "commit": "226cd409d8b7625a42d0a084eef085e4e56f86d6",
+      "committed_at": "2026-09-12T18:09:23Z",
+      "source": "https://api.github.com/repos/circuitikz/circuitikz"
+    },
+    {
+      "repository": "ethz-pes/AI-mag",
+      "status": "observed",
+      "canonical_url": "https://github.com/ethz-pes/AI-mag",
+      "archived": false,
+      "pushed_at": "2025-10-22T15:10:20Z",
+      "default_branch": "master",
+      "license": "BSD-2-Clause",
+      "commit": "c71d3f6e68af15db3a70dc5381d5a0d3cd4668f6",
+      "committed_at": "2025-10-22T15:10:18Z",
+      "source": "https://api.github.com/repos/ethz-pes/AI-mag"
+    },
+    {
+      "repository": "ethz-pes/litz_wire_losses_fem_matlab",
+      "status": "observed",
+      "canonical_url": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab",
+      "archived": false,
+      "pushed_at": "2025-03-28T14:05:09Z",
+      "default_branch": "master",
+      "license": "BSD-2-Clause",
+      "commit": "952503bee97c400de667acb7c7c850c6fe9a62a1",
+      "committed_at": "2025-03-28T14:05:09Z",
+      "source": "https://api.github.com/repos/ethz-pes/litz_wire_losses_fem_matlab"
+    },
+    {
+      "repository": "ethz-pes/mirroring_method_matlab",
+      "status": "observed",
+      "canonical_url": "https://github.com/ethz-pes/mirroring_method_matlab",
+      "archived": false,
+      "pushed_at": "2025-04-10T04:24:00Z",
+      "default_branch": "master",
+      "license": "BSD-2-Clause",
+      "commit": "c0bfccb1d8727e3d8e9de15febc3bb6f22ce16c9",
+      "committed_at": "2025-04-10T04:23:58Z",
+      "source": "https://api.github.com/repos/ethz-pes/mirroring_method_matlab"
+    },
+    {
+      "repository": "fsmMLK/inkscapeCircuitSymbols",
+      "status": "observed",
+      "canonical_url": "https://github.com/fsmMLK/inkscapeCircuitSymbols",
+      "archived": false,
+      "pushed_at": "2024-12-25T16:11:59Z",
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "commit": "f919f924716858ef30b93f08306ecdc2960a1468",
+      "committed_at": "2024-12-25T16:11:57Z",
+      "source": "https://api.github.com/repos/fsmMLK/inkscapeCircuitSymbols"
+    },
+    {
+      "repository": "geckocircuits/GeckoCIRCUITS",
+      "status": "observed",
+      "canonical_url": "https://github.com/geckocircuits/GeckoCIRCUITS",
+      "archived": false,
+      "pushed_at": "2026-02-23T18:24:48Z",
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "commit": "bb07d4160432836f55be0a99f21926795aa1efb9",
+      "committed_at": "2026-02-23T16:24:44Z",
+      "source": "https://api.github.com/repos/geckocircuits/GeckoCIRCUITS"
+    },
+    {
+      "repository": "gseim/gseim",
+      "status": "unavailable",
+      "error": "gh: Not Found (HTTP 404)"
+    },
+    {
+      "repository": "halbux/sparselizard",
+      "status": "observed",
+      "canonical_url": "https://github.com/halbux/sparselizard",
+      "archived": false,
+      "pushed_at": "2026-08-07T16:16:30Z",
+      "default_branch": "master",
+      "license": "NOASSERTION",
+      "commit": "e536ff15905556400909b47c4ff3df405e288b44",
+      "committed_at": "2026-08-07T16:16:30Z",
+      "source": "https://api.github.com/repos/halbux/sparselizard"
+    },
+    {
+      "repository": "horizon-eda/horizon",
+      "status": "observed",
+      "canonical_url": "https://github.com/horizon-eda/horizon",
+      "archived": false,
+      "pushed_at": "2026-10-04T19:23:57Z",
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "commit": "2ca3a5cd414d4572a78a7780e824a4c2f2dc6a16",
+      "committed_at": "2026-10-04T18:38:16Z",
+      "source": "https://api.github.com/repos/horizon-eda/horizon"
+    },
+    {
+      "repository": "jgraph/drawio-desktop",
+      "status": "observed",
+      "canonical_url": "https://github.com/jgraph/drawio-desktop",
+      "archived": false,
+      "pushed_at": "2026-10-06T12:01:09Z",
+      "default_branch": "dev",
+      "license": "GPL-3.0",
+      "commit": "830c57cf390be9a1e9ed6c6c8bebc2b049a45982",
+      "committed_at": "2026-10-06T12:00:34Z",
+      "source": "https://api.github.com/repos/jgraph/drawio-desktop"
+    },
+    {
+      "repository": "jupyterlab/jupyterlab",
+      "status": "observed",
+      "canonical_url": "https://github.com/jupyterlab/jupyterlab",
+      "archived": false,
+      "pushed_at": "2026-10-06T18:14:59Z",
+      "default_branch": "main",
+      "license": "BSD-3-Clause",
+      "commit": "17f2150c6570130ee66e4a0538f6c1fd148f8966",
+      "committed_at": "2026-10-06T18:10:57Z",
+      "source": "https://api.github.com/repos/jupyterlab/jupyterlab"
+    },
+    {
+      "repository": "medwatt/circuitikz_symbols",
+      "status": "observed",
+      "canonical_url": "https://github.com/medwatt/circuitikz_symbols",
+      "archived": false,
+      "pushed_at": "2026-09-26T11:17:09Z",
+      "default_branch": "main",
+      "license": "MIT",
+      "commit": "30a391112598e5734495f7d96f7b5a2d90d2cdb1",
+      "committed_at": "2026-09-26T11:17:04Z",
+      "source": "https://api.github.com/repos/medwatt/circuitikz_symbols"
+    },
+    {
+      "repository": "mixelpixx/KiCAD-MCP-Server",
+      "status": "observed",
+      "canonical_url": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+      "archived": false,
+      "pushed_at": "2026-10-01T13:44:29Z",
+      "default_branch": "main",
+      "license": "MIT",
+      "commit": "cbb59a6203997f5e916be7e0480d63fe5519134a",
+      "committed_at": "2026-10-01T13:44:21Z",
+      "source": "https://api.github.com/repos/mixelpixx/KiCAD-MCP-Server"
+    },
+    {
+      "repository": "neka-nat/freecad-mcp",
+      "status": "observed",
+      "canonical_url": "https://github.com/neka-nat/freecad-mcp",
+      "archived": false,
+      "pushed_at": "2026-10-06T07:46:50Z",
+      "default_branch": "main",
+      "license": "MIT",
+      "commit": "8e14693a9b46b50a3656cbdd9c2922456bb3bd06",
+      "committed_at": "2026-10-06T07:46:50Z",
+      "source": "https://api.github.com/repos/neka-nat/freecad-mcp"
+    },
+    {
+      "repository": "ngspice/ngspice",
+      "status": "observed",
+      "canonical_url": "https://github.com/ngspice/ngspice",
+      "archived": false,
+      "pushed_at": "2024-06-09T22:13:17Z",
+      "default_branch": "master",
+      "license": "NOASSERTION",
+      "commit": "032b1c32c4dbad45ff132bcfac1dbecadbd8abb0",
+      "committed_at": "2015-03-08T16:54:49Z",
+      "source": "https://api.github.com/repos/ngspice/ngspice"
+    },
+    {
+      "repository": "numpy/numpy",
+      "status": "observed",
+      "canonical_url": "https://github.com/numpy/numpy",
+      "archived": false,
+      "pushed_at": "2026-10-06T20:01:38Z",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "commit": "286e698f1dcf601648b165f48485ceaeec9c6231",
+      "committed_at": "2026-10-06T20:01:30Z",
+      "source": "https://api.github.com/repos/numpy/numpy"
+    },
+    {
+      "repository": "otvam/magnetic_components_toolbox_matlab",
+      "status": "observed",
+      "canonical_url": "https://github.com/otvam/magnetic_components_toolbox_matlab",
+      "archived": false,
+      "pushed_at": "2025-06-20T02:48:48Z",
+      "default_branch": "master",
+      "license": "BSD-2-Clause",
+      "commit": "999d125e6bddd835c3e405ace3bce089dd8e3cb6",
+      "committed_at": "2025-06-20T02:48:45Z",
+      "source": "https://api.github.com/repos/otvam/magnetic_components_toolbox_matlab"
+    },
+    {
+      "repository": "python-control/python-control",
+      "status": "observed",
+      "canonical_url": "https://github.com/python-control/python-control",
+      "archived": false,
+      "pushed_at": "2026-09-29T07:22:28Z",
+      "default_branch": "main",
+      "license": "BSD-3-Clause",
+      "commit": "b4cf7360138985f84afe299337ef9ee6c25e9c38",
+      "committed_at": "2026-09-29T07:22:27Z",
+      "source": "https://api.github.com/repos/python-control/python-control"
+    },
+    {
+      "repository": "python/cpython",
+      "status": "observed",
+      "canonical_url": "https://github.com/python/cpython",
+      "archived": false,
+      "pushed_at": "2026-10-07T02:52:59Z",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "commit": "2639fd65ff8e0c1949c480a8e670fe9c2467a1f8",
+      "committed_at": "2026-10-07T02:52:58Z",
+      "source": "https://api.github.com/repos/python/cpython"
+    },
+    {
+      "repository": "scipy/scipy",
+      "status": "observed",
+      "canonical_url": "https://github.com/scipy/scipy",
+      "archived": false,
+      "pushed_at": "2026-10-06T21:18:42Z",
+      "default_branch": "main",
+      "license": "BSD-3-Clause",
+      "commit": "0aa66630fc0717788fd39b25bdaecfcc8d7002cd",
+      "committed_at": "2026-10-06T21:18:42Z",
+      "source": "https://api.github.com/repos/scipy/scipy"
+    },
+    {
+      "repository": "sympy/sympy",
+      "status": "observed",
+      "canonical_url": "https://github.com/sympy/sympy",
+      "archived": false,
+      "pushed_at": "2026-10-05T04:38:31Z",
+      "default_branch": "master",
+      "license": "NOASSERTION",
+      "commit": "319ea7a6186edf88bc23d502917242b10314ae51",
+      "committed_at": "2026-10-05T04:38:30Z",
+      "source": "https://api.github.com/repos/sympy/sympy"
+    },
+    {
+      "repository": "thliebig/openEMS",
+      "status": "observed",
+      "canonical_url": "https://github.com/thliebig/openEMS",
+      "archived": false,
+      "pushed_at": "2026-10-02T20:35:19Z",
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "commit": "6761a36e28567129d833de2ae7df4fb102dc5ceb",
+      "committed_at": "2026-10-02T20:21:26Z",
+      "source": "https://api.github.com/repos/thliebig/openEMS"
+    },
+    {
+      "repository": "upb-lea/FEM_Magnetics_Toolbox",
+      "status": "observed",
+      "canonical_url": "https://github.com/upb-lea/FEM_Magnetics_Toolbox",
+      "archived": false,
+      "pushed_at": "2026-09-28T08:52:30Z",
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "commit": "05425e56fe9f6077e565b0950e877b035d906f15",
+      "committed_at": "2026-09-28T08:52:30Z",
+      "source": "https://api.github.com/repos/upb-lea/FEM_Magnetics_Toolbox"
+    },
+    {
+      "repository": "upb-lea/Inkscape_electric_Symbols",
+      "status": "observed",
+      "canonical_url": "https://github.com/upb-lea/Inkscape_electric_Symbols",
+      "archived": false,
+      "pushed_at": "2026-02-08T10:03:59Z",
+      "default_branch": "master",
+      "license": "CC0-1.0",
+      "commit": "9be09cd0e8fcff72816517f240eeff76cef807e2",
+      "committed_at": "2026-02-08T10:03:56Z",
+      "source": "https://api.github.com/repos/upb-lea/Inkscape_electric_Symbols"
+    },
+    {
+      "repository": "upb-lea/KiClearance",
+      "status": "observed",
+      "canonical_url": "https://github.com/upb-lea/KiClearance",
+      "archived": false,
+      "pushed_at": "2025-10-01T09:02:51Z",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "commit": "9a2ac7b063003db6e52ae41c12107b239a8d2604",
+      "committed_at": "2025-10-01T09:02:35Z",
+      "source": "https://api.github.com/repos/upb-lea/KiClearance"
+    },
+    {
+      "repository": "upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "status": "observed",
+      "canonical_url": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "archived": false,
+      "pushed_at": "2025-05-27T09:40:09Z",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "commit": "ab81b95ba8520ba3d365aa475378b90f32a1a4c7",
+      "committed_at": "2025-05-27T09:38:47Z",
+      "source": "https://api.github.com/repos/upb-lea/LCB-CCB-01_LEA_Control_Board"
+    },
+    {
+      "repository": "upb-lea/pygeckocircuits2",
+      "status": "observed",
+      "canonical_url": "https://github.com/upb-lea/pygeckocircuits2",
+      "archived": false,
+      "pushed_at": "2024-08-15T09:40:16Z",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "commit": "015ad0fc675a9f86f169544c1512dd8cde466671",
+      "committed_at": "2024-08-15T09:39:45Z",
+      "source": "https://api.github.com/repos/upb-lea/pygeckocircuits2"
+    },
+    {
+      "repository": "upb-lea/transistordatabase",
+      "status": "observed",
+      "canonical_url": "https://github.com/upb-lea/transistordatabase",
+      "archived": false,
+      "pushed_at": "2026-08-03T14:42:40Z",
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "commit": "ccd48b310e713e326778cd2a68f82d2a9f074d07",
+      "committed_at": "2026-08-03T14:42:36Z",
+      "source": "https://api.github.com/repos/upb-lea/transistordatabase"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.elmerfem.org/",
+      "status": "inconclusive",
+      "http_status": 403
+    },
+    {
+      "url": "https://aalto-electric-drives.github.io/motulator/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://aalto-electric-drives.github.io/motulator/"
+    },
+    {
+      "url": "https://aalto-electric-drives.github.io/motulator/auto_examples/index.html",
+      "status": "broken",
+      "http_status": 404
+    },
+    {
+      "url": "https://ai-mag.github.io/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ai-mag.github.io/"
+    },
+    {
+      "url": "https://bitbucket.org/ultrazohm/ultrazohm_sw/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://bitbucket.org/ultrazohm/ultrazohm_sw/"
+    },
+    {
+      "url": "https://ctan.org/pkg/circuitikz",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ctan.org/pkg/circuitikz"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/GeckoCircuits",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://de.wikipedia.org/wiki/GeckoCircuits"
+    },
+    {
+      "url": "https://docs.amdc.dev/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://docs.amdc.dev/"
+    },
+    {
+      "url": "https://docs.kicad.org/9.0/en/cli/cli.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://docs.kicad.org/9.0/en/cli/cli.html"
+    },
+    {
+      "url": "https://docs.openems.de/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://docs.openems.de/en/latest/"
+    },
+    {
+      "url": "https://docs.python.org/3/license.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://docs.python.org/3/license.html"
+    },
+    {
+      "url": "https://docs.scipy.org/doc/scipy/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://docs.scipy.org/doc/scipy/"
+    },
+    {
+      "url": "https://docs.sympy.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://docs.sympy.org/"
+    },
+    {
+      "url": "https://docs.ultrazohm.com/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ultrazohm.org/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/GNU_Octave",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/GNU_Octave"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gmsh",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Gmsh"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Julia_(programming_language)",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/KiCad",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/KiCad"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scilab",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Scilab"
+    },
+    {
+      "url": "https://esim.fossee.in/home",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://esim.fossee.in/home"
+    },
+    {
+      "url": "https://femm.info/doku/doku.php?id=Download",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://femm.info/doku/doku.php?id=Download"
+    },
+    {
+      "url": "https://freecad.github.io/DevelopersHandbook/codeformatting/Copyright-Headers.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://freecad.github.io/DevelopersHandbook/codeformatting/Copyright-Headers.html"
+    },
+    {
+      "url": "https://getdp.info/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://getdp.info/"
+    },
+    {
+      "url": "https://getdp.info/doc/texinfo/getdp.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://getdp.info/doc/texinfo/getdp.html"
+    },
+    {
+      "url": "https://github.com/Aalto-Electric-Drives/motulator",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/Aalto-Electric-Drives/motulator"
+    },
+    {
+      "url": "https://github.com/ElmerCSC/elmerfem",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/ElmerCSC/elmerfem"
+    },
+    {
+      "url": "https://github.com/FOSSEE/eSim",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/FOSSEE/eSim"
+    },
+    {
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/FreeCAD/FreeCAD"
+    },
+    {
+      "url": "https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/Python_scripting_tutorial.md",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/Python_scripting_tutorial.md"
+    },
+    {
+      "url": "https://github.com/JuliaLang/julia",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/JuliaLang/julia"
+    },
+    {
+      "url": "https://github.com/LibrePCB/LibrePCB",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/LibrePCB/LibrePCB"
+    },
+    {
+      "url": "https://github.com/NicklasVraa/Draw-io-ECE/tree/master",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/NicklasVraa/Draw-io-ECE/tree/master"
+    },
+    {
+      "url": "https://github.com/OpenMagnetics/MAS",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/Power-Supply-Manufacturers-Association/MAS"
+    },
+    {
+      "url": "https://github.com/OpenModelica/OpenModelica",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/OpenModelica/OpenModelica"
+    },
+    {
+      "url": "https://github.com/PrincetonUniversity/Magnet",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/PrincetonUniversity/Magnet"
+    },
+    {
+      "url": "https://github.com/Severson-Group/AMDC-Firmware",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/Severson-Group/AMDC-Firmware"
+    },
+    {
+      "url": "https://github.com/Severson-Group/AMDC-Hardware",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/Severson-Group/AMDC-Hardware"
+    },
+    {
+      "url": "https://github.com/circuitikz/circuitikz",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/circuitikz/circuitikz"
+    },
+    {
+      "url": "https://github.com/ethz-pes/AI-mag",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/ethz-pes/AI-mag"
+    },
+    {
+      "url": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab"
+    },
+    {
+      "url": "https://github.com/ethz-pes/mirroring_method_matlab",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/ethz-pes/mirroring_method_matlab"
+    },
+    {
+      "url": "https://github.com/fsmMLK/inkscapeCircuitSymbols",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/fsmMLK/inkscapeCircuitSymbols"
+    },
+    {
+      "url": "https://github.com/geckocircuits/GeckoCIRCUITS",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/geckocircuits/GeckoCIRCUITS"
+    },
+    {
+      "url": "https://github.com/gseim/gseim",
+      "status": "broken",
+      "http_status": 404
+    },
+    {
+      "url": "https://github.com/halbux/sparselizard/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/halbux/sparselizard/"
+    },
+    {
+      "url": "https://github.com/horizon-eda/horizon",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/horizon-eda/horizon"
+    },
+    {
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/jgraph/drawio-desktop"
+    },
+    {
+      "url": "https://github.com/jupyterlab/jupyterlab",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/jupyterlab/jupyterlab"
+    },
+    {
+      "url": "https://github.com/medwatt/circuitikz_symbols",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/medwatt/circuitikz_symbols"
+    },
+    {
+      "url": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/mixelpixx/KiCAD-MCP-Server"
+    },
+    {
+      "url": "https://github.com/neka-nat/freecad-mcp",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/neka-nat/freecad-mcp"
+    },
+    {
+      "url": "https://github.com/ngspice/ngspice",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/ngspice/ngspice"
+    },
+    {
+      "url": "https://github.com/numpy/numpy",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/numpy/numpy"
+    },
+    {
+      "url": "https://github.com/otvam/magnetic_components_toolbox_matlab",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/otvam/magnetic_components_toolbox_matlab"
+    },
+    {
+      "url": "https://github.com/python-control/python-control",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/python-control/python-control"
+    },
+    {
+      "url": "https://github.com/python/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/python/"
+    },
+    {
+      "url": "https://github.com/scipy/scipy",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/scipy/scipy"
+    },
+    {
+      "url": "https://github.com/sympy/sympy",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/sympy/sympy"
+    },
+    {
+      "url": "https://github.com/thliebig/openEMS",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/thliebig/openEMS"
+    },
+    {
+      "url": "https://github.com/upb-lea/FEM_Magnetics_Toolbox",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/upb-lea/FEM_Magnetics_Toolbox"
+    },
+    {
+      "url": "https://github.com/upb-lea/Inkscape_electric_Symbols",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/upb-lea/Inkscape_electric_Symbols"
+    },
+    {
+      "url": "https://github.com/upb-lea/KiClearance",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/upb-lea/KiClearance"
+    },
+    {
+      "url": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board"
+    },
+    {
+      "url": "https://github.com/upb-lea/pygeckocircuits2",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/upb-lea/pygeckocircuits2"
+    },
+    {
+      "url": "https://github.com/upb-lea/transistordatabase",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/upb-lea/transistordatabase"
+    },
+    {
+      "url": "https://gitlab.com/gnu-octave/octave",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://gitlab.com/gnu-octave/octave"
+    },
+    {
+      "url": "https://gitlab.com/kicad",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://gitlab.com/kicad"
+    },
+    {
+      "url": "https://gitlab.com/scilab/scilab/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://gitlab.com/scilab/scilab/"
+    },
+    {
+      "url": "https://gitlab.onelab.info/explore/projects",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://gitlab.onelab.info/explore/projects"
+    },
+    {
+      "url": "https://gitlab.onelab.info/getdp/getdp",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://gitlab.onelab.info/getdp/getdp"
+    },
+    {
+      "url": "https://gitlab.onelab.info/gmsh/gmsh",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://gitlab.onelab.info/gmsh/gmsh"
+    },
+    {
+      "url": "https://gmsh.info/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://gmsh.info/"
+    },
+    {
+      "url": "https://gmsh.info/doc/texinfo/gmsh.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://gmsh.info/doc/texinfo/gmsh.html"
+    },
+    {
+      "url": "https://gseim.github.io/build/html/index.html",
+      "status": "broken",
+      "http_status": 404
+    },
+    {
+      "url": "https://horizon-eda.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://horizon-eda.org/"
+    },
+    {
+      "url": "https://horizon-eda.readthedocs.io/en/latest/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://docs.horizon-eda.org/en/latest/"
+    },
+    {
+      "url": "https://inkscape.org/",
+      "status": "inconclusive",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://inkscape.org/about/license/",
+      "status": "inconclusive",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://inkscape.org/doc/inkscape-man.html",
+      "status": "inconclusive",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://jupyter.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://jupyter.org/"
+    },
+    {
+      "url": "https://jupyterlab.readthedocs.io/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://jupyterlab.readthedocs.io/en/latest/"
+    },
+    {
+      "url": "https://librepcb.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://librepcb.org/"
+    },
+    {
+      "url": "https://librepcb.org/docs/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://librepcb.org/docs/"
+    },
+    {
+      "url": "https://mag-net.princeton.edu/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://mag-net.princeton.edu/"
+    },
+    {
+      "url": "https://ngspice.sourceforge.io/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ngspice.sourceforge.io/"
+    },
+    {
+      "url": "https://ngspice.sourceforge.io/devel.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ngspice.sourceforge.io/devel.html"
+    },
+    {
+      "url": "https://ngspice.sourceforge.io/docs.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ngspice.sourceforge.io/docs.html"
+    },
+    {
+      "url": "https://numpy.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://numpy.org/"
+    },
+    {
+      "url": "https://numpy.org/doc/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://numpy.org/doc/"
+    },
+    {
+      "url": "https://octave.org/license.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://octave.org/copyright/"
+    },
+    {
+      "url": "https://openmagnetics.com/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://openmagnetics.com/"
+    },
+    {
+      "url": "https://openmodelica.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://openmodelica.org/"
+    },
+    {
+      "url": "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/"
+    },
+    {
+      "url": "https://openmodelica.org/osmc-pl/osmc-pl-1.8.txt",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://openmodelica.org/osmc-pl/osmc-pl-1.8.txt"
+    },
+    {
+      "url": "https://pypi.org/project/transistordatabase/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://pypi.org/project/transistordatabase/"
+    },
+    {
+      "url": "https://python-control.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://python-control.readthedocs.io/en/0.10.2/"
+    },
+    {
+      "url": "https://python-control.readthedocs.io/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://python-control.readthedocs.io/en/0.10.2/"
+    },
+    {
+      "url": "https://scipy.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://scipy.org/"
+    },
+    {
+      "url": "https://upb-lea.github.io/KiClearance/intro.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://upb-lea.github.io/KiClearance/intro.html"
+    },
+    {
+      "url": "https://upb-lea.github.io/pygeckocircuits2/intro.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://upb-lea.github.io/pygeckocircuits2/intro.html"
+    },
+    {
+      "url": "https://upb-lea.github.io/transistordatabase/main/index.html",
+      "status": "broken",
+      "http_status": 404
+    },
+    {
+      "url": "https://www.calculix.de/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.calculix.de/"
+    },
+    {
+      "url": "https://www.dhondt.de/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.dhondt.de/"
+    },
+    {
+      "url": "https://www.draw.io",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://app.diagrams.net/"
+    },
+    {
+      "url": "https://www.femm.info/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.femm.info/doku/doku.php?id=start"
+    },
+    {
+      "url": "https://www.femm.info/wiki/HomePage",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.femm.info/doku/doku.php?id=start"
+    },
+    {
+      "url": "https://www.freecad.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.freecad.org/"
+    },
+    {
+      "url": "https://www.gnu.org/software/octave/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://octave.org/"
+    },
+    {
+      "url": "https://www.julialang.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.julialang.org/"
+    },
+    {
+      "url": "https://www.kicad.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.kicad.org/"
+    },
+    {
+      "url": "https://www.onelab.info/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.onelab.info/"
+    },
+    {
+      "url": "https://www.openems.de/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.openems.de/"
+    },
+    {
+      "url": "https://www.python.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.python.org/"
+    },
+    {
+      "url": "https://www.scilab.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.scilab.org/"
+    },
+    {
+      "url": "https://www.sparselizard.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sparselizard.org/"
+    },
+    {
+      "url": "https://www.sympy.org/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sympy.org/"
+    }
+  ]
+}

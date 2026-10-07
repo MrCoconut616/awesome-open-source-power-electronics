@@ -1,0 +1,2721 @@
+{
+  "schema_version": "0.1.0",
+  "reviewed_on": "2026-10-07",
+  "policy": "Historical entries retained; 365-day code activity heuristic is not a maintenance guarantee. HTTP 404/410 need review; other errors are inconclusive.",
+  "duplicate_source_groups": [],
+  "related_not_duplicates": [
+    [
+      "geckocircuits",
+      "pygeckocircuits2"
+    ],
+    [
+      "gmsh",
+      "getdp",
+      "onelab"
+    ],
+    [
+      "kicad",
+      "kiclearance"
+    ]
+  ],
+  "tools": [
+    {
+      "id": "ai-mag",
+      "name": "AI-mag",
+      "category": "Magnetics",
+      "description": "Inductor Modeling and Design using Artificial Neural Network and Finite Element Method",
+      "legacy": true,
+      "url": "https://ai-mag.github.io/",
+      "github": "ethz-pes/AI-mag",
+      "links": [
+        "https://ai-mag.github.io/",
+        "https://github.com/ethz-pes/AI-mag"
+      ],
+      "interfaces": [
+        "python",
+        "matlab"
+      ],
+      "interface_evidence": "https://ai-mag.github.io/",
+      "license": "BSD-2-Clause",
+      "license_evidence": "https://api.github.com/repos/ethz-pes/AI-mag",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 350 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "ethz-pes/AI-mag",
+          "status": "observed",
+          "canonical_url": "https://github.com/ethz-pes/AI-mag",
+          "archived": false,
+          "pushed_at": "2025-10-22T15:10:20Z",
+          "default_branch": "master",
+          "license": "BSD-2-Clause",
+          "commit": "c71d3f6e68af15db3a70dc5381d5a0d3cd4668f6",
+          "committed_at": "2025-10-22T15:10:18Z",
+          "source": "https://api.github.com/repos/ethz-pes/AI-mag"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://ai-mag.github.io/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://ai-mag.github.io/"
+        },
+        {
+          "url": "https://github.com/ethz-pes/AI-mag",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/ethz-pes/AI-mag"
+        }
+      ]
+    },
+    {
+      "id": "amdc",
+      "name": "AMDC",
+      "category": "Control Platform",
+      "description": "Advanced Motor Drive Controller",
+      "legacy": true,
+      "url": "https://docs.amdc.dev/",
+      "github": "Severson-Group/AMDC-Hardware",
+      "links": [
+        "https://docs.amdc.dev/",
+        "https://github.com/Severson-Group/AMDC-Hardware",
+        "https://github.com/Severson-Group/AMDC-Firmware"
+      ],
+      "interfaces": [
+        "firmware",
+        "hardware"
+      ],
+      "interface_evidence": "https://docs.amdc.dev/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://docs.amdc.dev/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Hardware build/purchase and target-specific toolchains required; software simulation does not replace this hardware workflow."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 67 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "Severson-Group/AMDC-Hardware",
+          "status": "observed",
+          "canonical_url": "https://github.com/Severson-Group/AMDC-Hardware",
+          "archived": false,
+          "pushed_at": "2026-08-01T20:02:22Z",
+          "default_branch": "develop",
+          "license": "NOASSERTION",
+          "commit": "b7a474b5bae943581e958aab3dac3c55e012a097",
+          "committed_at": "2026-08-01T19:58:27Z",
+          "source": "https://api.github.com/repos/Severson-Group/AMDC-Hardware"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://docs.amdc.dev/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://docs.amdc.dev/"
+        },
+        {
+          "url": "https://github.com/Severson-Group/AMDC-Hardware",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/Severson-Group/AMDC-Hardware"
+        },
+        {
+          "url": "https://github.com/Severson-Group/AMDC-Firmware",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/Severson-Group/AMDC-Firmware"
+        }
+      ]
+    },
+    {
+      "id": "calculix",
+      "name": "CalculiX",
+      "category": "structural-thermal-fea",
+      "description": "structural-thermal-fea",
+      "legacy": false,
+      "url": "https://www.calculix.de/",
+      "github": null,
+      "links": [
+        "https://www.calculix.de/",
+        "https://www.dhondt.de/"
+      ],
+      "interfaces": [
+        "cli",
+        "inp"
+      ],
+      "interface_evidence": "https://www.dhondt.de/",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://www.calculix.de/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Structural and thermal modelling; not a general electromagnetic solver."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {}
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.calculix.de/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.calculix.de/"
+        },
+        {
+          "url": "https://www.dhondt.de/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.dhondt.de/"
+        }
+      ]
+    },
+    {
+      "id": "circuitikz",
+      "name": "CircuiTikZ",
+      "category": "Drawing and Documentation",
+      "description": "Set of macros on top of TikZ for typesetting electrical and electronic networks native to LaTeX",
+      "legacy": true,
+      "url": "https://github.com/circuitikz/circuitikz",
+      "github": "circuitikz/circuitikz",
+      "links": [
+        "https://github.com/circuitikz/circuitikz",
+        "https://ctan.org/pkg/circuitikz"
+      ],
+      "interfaces": [
+        "latex"
+      ],
+      "interface_evidence": "https://github.com/circuitikz/circuitikz",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/circuitikz/circuitikz",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 25 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "circuitikz/circuitikz",
+          "status": "observed",
+          "canonical_url": "https://github.com/circuitikz/circuitikz",
+          "archived": false,
+          "pushed_at": "2026-09-12T18:14:47Z",
+          "default_branch": "master",
+          "license": "NOASSERTION",
+          "commit": "226cd409d8b7625a42d0a084eef085e4e56f86d6",
+          "committed_at": "2026-09-12T18:09:23Z",
+          "source": "https://api.github.com/repos/circuitikz/circuitikz"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/circuitikz/circuitikz",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/circuitikz/circuitikz"
+        },
+        {
+          "url": "https://ctan.org/pkg/circuitikz",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://ctan.org/pkg/circuitikz"
+        }
+      ]
+    },
+    {
+      "id": "circuitikz-for-inkscape",
+      "name": "CircuiTikZ for Inkscape",
+      "category": "Drawing and Documentation",
+      "description": "CircuiTikZ for Inkscape",
+      "legacy": true,
+      "url": "https://github.com/medwatt/circuitikz_symbols",
+      "github": "medwatt/circuitikz_symbols",
+      "links": [
+        "https://github.com/medwatt/circuitikz_symbols"
+      ],
+      "interfaces": [
+        "svg"
+      ],
+      "interface_evidence": "https://github.com/medwatt/circuitikz_symbols",
+      "license": "MIT",
+      "license_evidence": "https://api.github.com/repos/medwatt/circuitikz_symbols",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 11 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "medwatt/circuitikz_symbols",
+          "status": "observed",
+          "canonical_url": "https://github.com/medwatt/circuitikz_symbols",
+          "archived": false,
+          "pushed_at": "2026-09-26T11:17:09Z",
+          "default_branch": "main",
+          "license": "MIT",
+          "commit": "30a391112598e5734495f7d96f7b5a2d90d2cdb1",
+          "committed_at": "2026-09-26T11:17:04Z",
+          "source": "https://api.github.com/repos/medwatt/circuitikz_symbols"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/medwatt/circuitikz_symbols",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/medwatt/circuitikz_symbols"
+        }
+      ]
+    },
+    {
+      "id": "draw-io-desktop",
+      "name": "draw.io Desktop",
+      "category": "Drawing and Documentation",
+      "description": "Multiplatform diagramming and whiteboarding tool with electronics symbols",
+      "legacy": true,
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "github": "jgraph/drawio-desktop",
+      "links": [
+        "https://github.com/jgraph/drawio-desktop",
+        "https://www.draw.io"
+      ],
+      "interfaces": [
+        "cli",
+        "xml"
+      ],
+      "interface_evidence": "https://github.com/jgraph/drawio-desktop",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/jgraph/drawio-desktop",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 1 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "jgraph/drawio-desktop",
+          "status": "observed",
+          "canonical_url": "https://github.com/jgraph/drawio-desktop",
+          "archived": false,
+          "pushed_at": "2026-10-06T12:01:09Z",
+          "default_branch": "dev",
+          "license": "GPL-3.0",
+          "commit": "830c57cf390be9a1e9ed6c6c8bebc2b049a45982",
+          "committed_at": "2026-10-06T12:00:34Z",
+          "source": "https://api.github.com/repos/jgraph/drawio-desktop"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/jgraph/drawio-desktop",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/jgraph/drawio-desktop"
+        },
+        {
+          "url": "https://www.draw.io",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://app.diagrams.net/"
+        }
+      ]
+    },
+    {
+      "id": "draw-io-electrical-engineering",
+      "name": "draw.io Electrical Engineering",
+      "category": "Drawing and Documentation",
+      "description": "Drawing electrical engineering and computer-science related diagrams, such as circuits and control-architectures in draw.io.",
+      "legacy": true,
+      "url": "https://github.com/NicklasVraa/Draw-io-ECE/tree/master",
+      "github": "NicklasVraa/Draw-io-ECE",
+      "links": [
+        "https://github.com/NicklasVraa/Draw-io-ECE/tree/master"
+      ],
+      "interfaces": [
+        "xml-symbol-library"
+      ],
+      "interface_evidence": "https://github.com/NicklasVraa/Draw-io-ECE/tree/master",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/NicklasVraa/Draw-io-ECE",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "historical_review",
+        "reason": "Last observed default-branch commit 781 days old; age alone does not prove abandonment.",
+        "evidence": {
+          "repository": "NicklasVraa/Draw-io-ECE",
+          "status": "observed",
+          "canonical_url": "https://github.com/NicklasVraa/Draw-io-ECE",
+          "archived": false,
+          "pushed_at": "2024-08-17T12:03:38Z",
+          "default_branch": "master",
+          "license": "GPL-3.0",
+          "commit": "86a395d01c20e59c89261af5e1e07e92820d9c36",
+          "committed_at": "2024-08-17T12:03:36Z",
+          "source": "https://api.github.com/repos/NicklasVraa/Draw-io-ECE"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/NicklasVraa/Draw-io-ECE/tree/master",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/NicklasVraa/Draw-io-ECE/tree/master"
+        }
+      ]
+    },
+    {
+      "id": "elmer",
+      "name": "Elmer",
+      "category": "Magnetics",
+      "description": "Finite element software for multiphysical problems including electro-thermal domains",
+      "legacy": true,
+      "url": "http://www.elmerfem.org/",
+      "github": "ElmerCSC/elmerfem",
+      "links": [
+        "http://www.elmerfem.org/",
+        "https://github.com/ElmerCSC/elmerfem"
+      ],
+      "interfaces": [
+        "cli",
+        "sif"
+      ],
+      "interface_evidence": "http://www.elmerfem.org/",
+      "license": "NOASSERTION",
+      "license_evidence": "http://www.elmerfem.org/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 0 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "ElmerCSC/elmerfem",
+          "status": "observed",
+          "canonical_url": "https://github.com/ElmerCSC/elmerfem",
+          "archived": false,
+          "pushed_at": "2026-10-07T03:38:42Z",
+          "default_branch": "devel",
+          "license": "NOASSERTION",
+          "commit": "62f843db541ffa0b711b7db2ee91a72a5e3b7bc3",
+          "committed_at": "2026-10-07T03:38:42Z",
+          "source": "https://api.github.com/repos/ElmerCSC/elmerfem"
+        }
+      },
+      "link_status": "inconclusive",
+      "link_evidence": [
+        {
+          "url": "http://www.elmerfem.org/",
+          "status": "inconclusive",
+          "http_status": 403
+        },
+        {
+          "url": "https://github.com/ElmerCSC/elmerfem",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/ElmerCSC/elmerfem"
+        }
+      ]
+    },
+    {
+      "id": "esim",
+      "name": "eSim",
+      "category": "Circuit Simulation and Calculation",
+      "description": "eSim is an open source EDA tool for circuit design, simulation, analysis and PCB design.",
+      "legacy": true,
+      "url": "https://github.com/FOSSEE/eSim",
+      "github": "FOSSEE/eSim",
+      "links": [
+        "https://github.com/FOSSEE/eSim",
+        "https://esim.fossee.in/home"
+      ],
+      "interfaces": [
+        "netlist",
+        "ngspice-cli"
+      ],
+      "interface_evidence": "https://github.com/FOSSEE/eSim",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/FOSSEE/eSim",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 10 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "FOSSEE/eSim",
+          "status": "observed",
+          "canonical_url": "https://github.com/FOSSEE/eSim",
+          "archived": false,
+          "pushed_at": "2026-09-27T15:45:56Z",
+          "default_branch": "master",
+          "license": "GPL-3.0",
+          "commit": "1a25a46ce15e0ccc35296dd513f40249c089a5a7",
+          "committed_at": "2026-09-27T15:45:56Z",
+          "source": "https://api.github.com/repos/FOSSEE/eSim"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/FOSSEE/eSim",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/FOSSEE/eSim"
+        },
+        {
+          "url": "https://esim.fossee.in/home",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://esim.fossee.in/home"
+        }
+      ]
+    },
+    {
+      "id": "femm",
+      "name": "FEMM",
+      "category": "Magnetics",
+      "description": "A Windows finite element solver for 2D and axisymmetric magnetic, electrostatic, heat flow, and current flow problems with graphical pre- and post-processors.",
+      "legacy": true,
+      "url": "https://www.femm.info/",
+      "github": null,
+      "links": [
+        "https://www.femm.info/",
+        "https://www.femm.info/wiki/HomePage",
+        "https://femm.info/doku/doku.php?id=Download"
+      ],
+      "interfaces": [
+        "lua",
+        "python",
+        "octave"
+      ],
+      "interface_evidence": "https://www.femm.info/",
+      "license": "Aladdin",
+      "license_evidence": "https://femm.info/doku/doku.php?id=Download",
+      "licence_class": "source_available",
+      "limitations": [
+        "Aladdin Free Public License restricts redistribution; do not classify as OSI open source. Native Windows; 2D/axisymmetric problems only."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {}
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.femm.info/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.femm.info/doku/doku.php?id=start"
+        },
+        {
+          "url": "https://www.femm.info/wiki/HomePage",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.femm.info/doku/doku.php?id=start"
+        },
+        {
+          "url": "https://femm.info/doku/doku.php?id=Download",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://femm.info/doku/doku.php?id=Download"
+        }
+      ]
+    },
+    {
+      "id": "femmt",
+      "name": "FEMMT",
+      "category": "Magnetics",
+      "description": "Python toolbox to generate preconfigured structures for FEM simulation tools in power electronics",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/FEM_Magnetics_Toolbox",
+      "github": "upb-lea/FEM_Magnetics_Toolbox",
+      "links": [
+        "https://github.com/upb-lea/FEM_Magnetics_Toolbox"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/FEM_Magnetics_Toolbox",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/upb-lea/FEM_Magnetics_Toolbox",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 9 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "upb-lea/FEM_Magnetics_Toolbox",
+          "status": "observed",
+          "canonical_url": "https://github.com/upb-lea/FEM_Magnetics_Toolbox",
+          "archived": false,
+          "pushed_at": "2026-09-28T08:52:30Z",
+          "default_branch": "main",
+          "license": "GPL-3.0",
+          "commit": "05425e56fe9f6077e565b0950e877b035d906f15",
+          "committed_at": "2026-09-28T08:52:30Z",
+          "source": "https://api.github.com/repos/upb-lea/FEM_Magnetics_Toolbox"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/upb-lea/FEM_Magnetics_Toolbox",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/upb-lea/FEM_Magnetics_Toolbox"
+        }
+      ]
+    },
+    {
+      "id": "freecad",
+      "name": "FreeCAD",
+      "category": "mechanical-cad",
+      "description": "mechanical-cad",
+      "legacy": false,
+      "url": "https://www.freecad.org/",
+      "github": "FreeCAD/FreeCAD",
+      "links": [
+        "https://www.freecad.org/",
+        "https://github.com/FreeCAD/FreeCAD",
+        "https://freecad.github.io/DevelopersHandbook/codeformatting/Copyright-Headers.html",
+        "https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/Python_scripting_tutorial.md"
+      ],
+      "interfaces": [
+        "python",
+        "cli",
+        "macro"
+      ],
+      "interface_evidence": "https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/Python_scripting_tutorial.md",
+      "license": "LGPL-2.1-or-later",
+      "license_evidence": "https://freecad.github.io/DevelopersHandbook/codeformatting/Copyright-Headers.html",
+      "licence_class": "open_source",
+      "limitations": [
+        "FreeCAD geometric lengths are millimetres; convert SI inputs. GUI-bound operations need a GUI process."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 0 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "FreeCAD/FreeCAD",
+          "status": "observed",
+          "canonical_url": "https://github.com/FreeCAD/FreeCAD",
+          "archived": false,
+          "pushed_at": "2026-10-07T03:35:14Z",
+          "default_branch": "main",
+          "license": "LGPL-2.1",
+          "commit": "876271d6605a47805742e34c88cf31993398bdf9",
+          "committed_at": "2026-10-07T03:34:35Z",
+          "source": "https://api.github.com/repos/FreeCAD/FreeCAD"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.freecad.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.freecad.org/"
+        },
+        {
+          "url": "https://github.com/FreeCAD/FreeCAD",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/FreeCAD/FreeCAD"
+        },
+        {
+          "url": "https://freecad.github.io/DevelopersHandbook/codeformatting/Copyright-Headers.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://freecad.github.io/DevelopersHandbook/codeformatting/Copyright-Headers.html"
+        },
+        {
+          "url": "https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/Python_scripting_tutorial.md",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/Python_scripting_tutorial.md"
+        }
+      ]
+    },
+    {
+      "id": "geckocircuits",
+      "name": "GeckoCIRCUITS",
+      "category": "Circuit Simulation and Calculation",
+      "description": "GeckoCIRCUITS is a fast and easy-to-use circuit simulator optimized for power electronics.",
+      "legacy": true,
+      "url": "https://github.com/geckocircuits/GeckoCIRCUITS",
+      "github": "geckocircuits/GeckoCIRCUITS",
+      "links": [
+        "https://github.com/geckocircuits/GeckoCIRCUITS",
+        "https://de.wikipedia.org/wiki/GeckoCircuits"
+      ],
+      "interfaces": [
+        "java",
+        "scriptable-model"
+      ],
+      "interface_evidence": "https://github.com/geckocircuits/GeckoCIRCUITS",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/geckocircuits/GeckoCIRCUITS",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 226 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "geckocircuits/GeckoCIRCUITS",
+          "status": "observed",
+          "canonical_url": "https://github.com/geckocircuits/GeckoCIRCUITS",
+          "archived": false,
+          "pushed_at": "2026-02-23T18:24:48Z",
+          "default_branch": "main",
+          "license": "GPL-3.0",
+          "commit": "bb07d4160432836f55be0a99f21926795aa1efb9",
+          "committed_at": "2026-02-23T16:24:44Z",
+          "source": "https://api.github.com/repos/geckocircuits/GeckoCIRCUITS"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/geckocircuits/GeckoCIRCUITS",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/geckocircuits/GeckoCIRCUITS"
+        },
+        {
+          "url": "https://de.wikipedia.org/wiki/GeckoCircuits",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://de.wikipedia.org/wiki/GeckoCircuits"
+        }
+      ]
+    },
+    {
+      "id": "getdp",
+      "name": "GetDP",
+      "category": "Magnetics",
+      "description": "GetDP is a free finite element solver using mixed elements to discretize de Rham-type complexes in one, two and three dimensions.",
+      "legacy": true,
+      "url": "https://getdp.info/",
+      "github": null,
+      "links": [
+        "https://getdp.info/",
+        "https://gitlab.onelab.info/getdp/getdp",
+        "https://getdp.info/doc/texinfo/getdp.html"
+      ],
+      "interfaces": [
+        "cli",
+        "pro"
+      ],
+      "interface_evidence": "https://getdp.info/doc/texinfo/getdp.html",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://getdp.info/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {}
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://getdp.info/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://getdp.info/"
+        },
+        {
+          "url": "https://gitlab.onelab.info/getdp/getdp",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://gitlab.onelab.info/getdp/getdp"
+        },
+        {
+          "url": "https://getdp.info/doc/texinfo/getdp.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://getdp.info/doc/texinfo/getdp.html"
+        }
+      ]
+    },
+    {
+      "id": "gmsh",
+      "name": "Gmsh",
+      "category": "Magnetics",
+      "description": "Gmsh is an open source 3D finite element mesh generator with a built-in CAD engine and post-processor",
+      "legacy": true,
+      "url": "https://gmsh.info/",
+      "github": null,
+      "links": [
+        "https://gmsh.info/",
+        "https://en.wikipedia.org/wiki/Gmsh",
+        "https://gitlab.onelab.info/gmsh/gmsh",
+        "https://gmsh.info/doc/texinfo/gmsh.html"
+      ],
+      "interfaces": [
+        "cli",
+        "python",
+        "c++",
+        "geo"
+      ],
+      "interface_evidence": "https://gmsh.info/doc/texinfo/gmsh.html",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://gmsh.info/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {}
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://gmsh.info/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://gmsh.info/"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gmsh",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://en.wikipedia.org/wiki/Gmsh"
+        },
+        {
+          "url": "https://gitlab.onelab.info/gmsh/gmsh",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://gitlab.onelab.info/gmsh/gmsh"
+        },
+        {
+          "url": "https://gmsh.info/doc/texinfo/gmsh.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://gmsh.info/doc/texinfo/gmsh.html"
+        }
+      ]
+    },
+    {
+      "id": "gseim",
+      "name": "GSEIM",
+      "category": "Circuit Simulation and Calculation",
+      "description": "GSEIM (General-purpose Simulator with Explicit and Implicit Methods) is meant for simulation of electrical circuits, especially power electronic circuits, and also for numerical solution of ordinary differential equations (ODEs).",
+      "legacy": true,
+      "url": "https://github.com/gseim/gseim",
+      "github": "gseim/gseim",
+      "links": [
+        "https://github.com/gseim/gseim",
+        "https://gseim.github.io/build/html/index.html"
+      ],
+      "interfaces": [
+        "netlist",
+        "cli"
+      ],
+      "interface_evidence": "https://github.com/gseim/gseim",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/gseim/gseim",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release.",
+        "Original GitHub and documentation links returned 404 on review date; project location and current maintenance remain unresolved. Retained for historical value."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {
+          "repository": "gseim/gseim",
+          "status": "unavailable",
+          "error": "gh: Not Found (HTTP 404)"
+        }
+      },
+      "link_status": "broken",
+      "link_evidence": [
+        {
+          "url": "https://github.com/gseim/gseim",
+          "status": "broken",
+          "http_status": 404
+        },
+        {
+          "url": "https://gseim.github.io/build/html/index.html",
+          "status": "broken",
+          "http_status": 404
+        }
+      ]
+    },
+    {
+      "id": "horizon",
+      "name": "Horizon",
+      "category": "Schematics and Layout",
+      "description": "Schematic and layout editor with focus on simple part management.",
+      "legacy": true,
+      "url": "https://horizon-eda.org/",
+      "github": "horizon-eda/horizon",
+      "links": [
+        "https://horizon-eda.org/",
+        "https://github.com/horizon-eda/horizon",
+        "https://horizon-eda.readthedocs.io/en/latest/"
+      ],
+      "interfaces": [
+        "cli",
+        "json"
+      ],
+      "interface_evidence": "https://horizon-eda.org/",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/horizon-eda/horizon",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 3 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "horizon-eda/horizon",
+          "status": "observed",
+          "canonical_url": "https://github.com/horizon-eda/horizon",
+          "archived": false,
+          "pushed_at": "2026-10-04T19:23:57Z",
+          "default_branch": "master",
+          "license": "GPL-3.0",
+          "commit": "2ca3a5cd414d4572a78a7780e824a4c2f2dc6a16",
+          "committed_at": "2026-10-04T18:38:16Z",
+          "source": "https://api.github.com/repos/horizon-eda/horizon"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://horizon-eda.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://horizon-eda.org/"
+        },
+        {
+          "url": "https://github.com/horizon-eda/horizon",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/horizon-eda/horizon"
+        },
+        {
+          "url": "https://horizon-eda.readthedocs.io/en/latest/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://docs.horizon-eda.org/en/latest/"
+        }
+      ]
+    },
+    {
+      "id": "inkscape",
+      "name": "Inkscape",
+      "category": "documentation",
+      "description": "documentation",
+      "legacy": false,
+      "url": "https://inkscape.org/",
+      "github": null,
+      "links": [
+        "https://inkscape.org/",
+        "https://inkscape.org/about/license/",
+        "https://inkscape.org/doc/inkscape-man.html"
+      ],
+      "interfaces": [
+        "cli",
+        "svg",
+        "python-extension"
+      ],
+      "interface_evidence": "https://inkscape.org/doc/inkscape-man.html",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://inkscape.org/about/license/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Drawing output does not imply electrically validated schematics."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {}
+      },
+      "link_status": "inconclusive",
+      "link_evidence": [
+        {
+          "url": "https://inkscape.org/",
+          "status": "inconclusive",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://inkscape.org/about/license/",
+          "status": "inconclusive",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://inkscape.org/doc/inkscape-man.html",
+          "status": "inconclusive",
+          "error": "The read operation timed out"
+        }
+      ]
+    },
+    {
+      "id": "inkscape-circuit-symbols-inkscape-extension",
+      "name": "Inkscape Circuit Symbols (Inkscape Extension)",
+      "category": "Drawing and Documentation",
+      "description": "Circuit Symbols as Inkscape extension",
+      "legacy": true,
+      "url": "https://github.com/fsmMLK/inkscapeCircuitSymbols",
+      "github": "fsmMLK/inkscapeCircuitSymbols",
+      "links": [
+        "https://github.com/fsmMLK/inkscapeCircuitSymbols"
+      ],
+      "interfaces": [
+        "python-extension"
+      ],
+      "interface_evidence": "https://github.com/fsmMLK/inkscapeCircuitSymbols",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/fsmMLK/inkscapeCircuitSymbols",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "historical_review",
+        "reason": "Last observed default-branch commit 651 days old; age alone does not prove abandonment.",
+        "evidence": {
+          "repository": "fsmMLK/inkscapeCircuitSymbols",
+          "status": "observed",
+          "canonical_url": "https://github.com/fsmMLK/inkscapeCircuitSymbols",
+          "archived": false,
+          "pushed_at": "2024-12-25T16:11:59Z",
+          "default_branch": "master",
+          "license": "GPL-3.0",
+          "commit": "f919f924716858ef30b93f08306ecdc2960a1468",
+          "committed_at": "2024-12-25T16:11:57Z",
+          "source": "https://api.github.com/repos/fsmMLK/inkscapeCircuitSymbols"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/fsmMLK/inkscapeCircuitSymbols",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/fsmMLK/inkscapeCircuitSymbols"
+        }
+      ]
+    },
+    {
+      "id": "inkscape-electric-symbols",
+      "name": "Inkscape Electric Symbols",
+      "category": "Drawing and Documentation",
+      "description": "Electrical symbol library for the vector graphics program Inkscape.",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/Inkscape_electric_Symbols",
+      "github": "upb-lea/Inkscape_electric_Symbols",
+      "links": [
+        "https://github.com/upb-lea/Inkscape_electric_Symbols"
+      ],
+      "interfaces": [
+        "svg-symbol-library"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/Inkscape_electric_Symbols",
+      "license": "CC0-1.0",
+      "license_evidence": "https://api.github.com/repos/upb-lea/Inkscape_electric_Symbols",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 241 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "upb-lea/Inkscape_electric_Symbols",
+          "status": "observed",
+          "canonical_url": "https://github.com/upb-lea/Inkscape_electric_Symbols",
+          "archived": false,
+          "pushed_at": "2026-02-08T10:03:59Z",
+          "default_branch": "master",
+          "license": "CC0-1.0",
+          "commit": "9be09cd0e8fcff72816517f240eeff76cef807e2",
+          "committed_at": "2026-02-08T10:03:56Z",
+          "source": "https://api.github.com/repos/upb-lea/Inkscape_electric_Symbols"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/upb-lea/Inkscape_electric_Symbols",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/upb-lea/Inkscape_electric_Symbols"
+        }
+      ]
+    },
+    {
+      "id": "julia",
+      "name": "Julia",
+      "category": "Calculation and Automatisation",
+      "description": "Programming language",
+      "legacy": true,
+      "url": "https://www.julialang.org/",
+      "github": "JuliaLang/julia",
+      "links": [
+        "https://www.julialang.org/",
+        "https://en.wikipedia.org/wiki/Julia_(programming_language)",
+        "https://github.com/JuliaLang/julia"
+      ],
+      "interfaces": [
+        "cli",
+        "julia"
+      ],
+      "interface_evidence": "https://www.julialang.org/",
+      "license": "MIT",
+      "license_evidence": "https://api.github.com/repos/JuliaLang/julia",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 1 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "JuliaLang/julia",
+          "status": "observed",
+          "canonical_url": "https://github.com/JuliaLang/julia",
+          "archived": false,
+          "pushed_at": "2026-10-07T02:04:39Z",
+          "default_branch": "master",
+          "license": "MIT",
+          "commit": "cdf658ede7a3970918e6d6be1b8689d7773c735a",
+          "committed_at": "2026-10-06T17:09:59Z",
+          "source": "https://api.github.com/repos/JuliaLang/julia"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.julialang.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.julialang.org/"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Julia_(programming_language)",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+        },
+        {
+          "url": "https://github.com/JuliaLang/julia",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/JuliaLang/julia"
+        }
+      ]
+    },
+    {
+      "id": "jupyterlab",
+      "name": "JupyterLab",
+      "category": "documentation",
+      "description": "documentation",
+      "legacy": false,
+      "url": "https://jupyter.org/",
+      "github": "jupyterlab/jupyterlab",
+      "links": [
+        "https://jupyter.org/",
+        "https://github.com/jupyterlab/jupyterlab",
+        "https://jupyterlab.readthedocs.io/"
+      ],
+      "interfaces": [
+        "python",
+        "cli",
+        "notebook"
+      ],
+      "interface_evidence": "https://jupyterlab.readthedocs.io/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/jupyterlab/jupyterlab",
+      "licence_class": "open_source",
+      "limitations": [
+        "Notebooks execute code; clean-run before citing results."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 1 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "jupyterlab/jupyterlab",
+          "status": "observed",
+          "canonical_url": "https://github.com/jupyterlab/jupyterlab",
+          "archived": false,
+          "pushed_at": "2026-10-06T18:14:59Z",
+          "default_branch": "main",
+          "license": "BSD-3-Clause",
+          "commit": "17f2150c6570130ee66e4a0538f6c1fd148f8966",
+          "committed_at": "2026-10-06T18:10:57Z",
+          "source": "https://api.github.com/repos/jupyterlab/jupyterlab"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://jupyter.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://jupyter.org/"
+        },
+        {
+          "url": "https://github.com/jupyterlab/jupyterlab",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/jupyterlab/jupyterlab"
+        },
+        {
+          "url": "https://jupyterlab.readthedocs.io/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://jupyterlab.readthedocs.io/en/latest/"
+        }
+      ]
+    },
+    {
+      "id": "kicad",
+      "name": "KiCad",
+      "category": "Schematics and Layout",
+      "description": "Schematic and layout editor.",
+      "legacy": true,
+      "url": "https://www.kicad.org/",
+      "github": "KiCad/kicad-source-mirror",
+      "links": [
+        "https://www.kicad.org/",
+        "https://en.wikipedia.org/wiki/KiCad",
+        "https://gitlab.com/kicad",
+        "https://docs.kicad.org/9.0/en/cli/cli.html"
+      ],
+      "interfaces": [
+        "cli",
+        "python",
+        "ipc"
+      ],
+      "interface_evidence": "https://docs.kicad.org/9.0/en/cli/cli.html",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/KiCad/kicad-source-mirror",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 1 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "KiCad/kicad-source-mirror",
+          "status": "observed",
+          "canonical_url": "https://github.com/KiCad/kicad-source-mirror",
+          "archived": false,
+          "pushed_at": "2026-10-06T23:58:10Z",
+          "default_branch": "master",
+          "license": "GPL-3.0",
+          "commit": "32b73c9ccc94c990827e8d100345d0414bb952d9",
+          "committed_at": "2026-10-06T23:57:56Z",
+          "source": "https://api.github.com/repos/KiCad/kicad-source-mirror"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.kicad.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.kicad.org/"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/KiCad",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://en.wikipedia.org/wiki/KiCad"
+        },
+        {
+          "url": "https://gitlab.com/kicad",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://gitlab.com/kicad"
+        },
+        {
+          "url": "https://docs.kicad.org/9.0/en/cli/cli.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://docs.kicad.org/9.0/en/cli/cli.html"
+        }
+      ]
+    },
+    {
+      "id": "kiclearance",
+      "name": "KiClearance",
+      "category": "Schematics and Layout",
+      "description": "Generate clearance rules for KiCAD by a human-readable easy-to-use table.",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/KiClearance",
+      "github": "upb-lea/KiClearance",
+      "links": [
+        "https://github.com/upb-lea/KiClearance",
+        "https://upb-lea.github.io/KiClearance/intro.html"
+      ],
+      "interfaces": [
+        "python",
+        "kicad-rule-file"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/KiClearance",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/upb-lea/KiClearance",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "historical_review",
+        "reason": "Last observed default-branch commit 371 days old; age alone does not prove abandonment.",
+        "evidence": {
+          "repository": "upb-lea/KiClearance",
+          "status": "observed",
+          "canonical_url": "https://github.com/upb-lea/KiClearance",
+          "archived": false,
+          "pushed_at": "2025-10-01T09:02:51Z",
+          "default_branch": "main",
+          "license": "NOASSERTION",
+          "commit": "9a2ac7b063003db6e52ae41c12107b239a8d2604",
+          "committed_at": "2025-10-01T09:02:35Z",
+          "source": "https://api.github.com/repos/upb-lea/KiClearance"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/upb-lea/KiClearance",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/upb-lea/KiClearance"
+        },
+        {
+          "url": "https://upb-lea.github.io/KiClearance/intro.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://upb-lea.github.io/KiClearance/intro.html"
+        }
+      ]
+    },
+    {
+      "id": "lcb-lea-control-board",
+      "name": "LCB - LEA Control Board",
+      "category": "Control Platform",
+      "description": "Control board for power electronics usage.",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "github": "upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "links": [
+        "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board"
+      ],
+      "interfaces": [
+        "hardware"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+      "licence_class": "unverified",
+      "limitations": [
+        "Hardware build/purchase and target-specific toolchains required; software simulation does not replace this hardware workflow."
+      ],
+      "maintenance": {
+        "status": "historical_review",
+        "reason": "Last observed default-branch commit 498 days old; age alone does not prove abandonment.",
+        "evidence": {
+          "repository": "upb-lea/LCB-CCB-01_LEA_Control_Board",
+          "status": "observed",
+          "canonical_url": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+          "archived": false,
+          "pushed_at": "2025-05-27T09:40:09Z",
+          "default_branch": "main",
+          "license": "NOASSERTION",
+          "commit": "ab81b95ba8520ba3d365aa475378b90f32a1a4c7",
+          "committed_at": "2025-05-27T09:38:47Z",
+          "source": "https://api.github.com/repos/upb-lea/LCB-CCB-01_LEA_Control_Board"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/upb-lea/LCB-CCB-01_LEA_Control_Board"
+        }
+      ]
+    },
+    {
+      "id": "librepcb",
+      "name": "LibrePCB",
+      "category": "Schematics and Layout",
+      "description": "A powerful, innovative and intuitive EDA tool for everyone!",
+      "legacy": true,
+      "url": "https://librepcb.org/",
+      "github": "LibrePCB/LibrePCB",
+      "links": [
+        "https://librepcb.org/",
+        "https://github.com/LibrePCB/LibrePCB",
+        "https://librepcb.org/docs/"
+      ],
+      "interfaces": [
+        "cli",
+        "project-files"
+      ],
+      "interface_evidence": "https://librepcb.org/",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/LibrePCB/LibrePCB",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 1 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "LibrePCB/LibrePCB",
+          "status": "observed",
+          "canonical_url": "https://github.com/LibrePCB/LibrePCB",
+          "archived": false,
+          "pushed_at": "2026-10-06T20:24:28Z",
+          "default_branch": "master",
+          "license": "GPL-3.0",
+          "commit": "6c061150a88f65d2393fcaaa783a8c41cbaaca5c",
+          "committed_at": "2026-10-06T20:23:47Z",
+          "source": "https://api.github.com/repos/LibrePCB/LibrePCB"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://librepcb.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://librepcb.org/"
+        },
+        {
+          "url": "https://github.com/LibrePCB/LibrePCB",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/LibrePCB/LibrePCB"
+        },
+        {
+          "url": "https://librepcb.org/docs/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://librepcb.org/docs/"
+        }
+      ]
+    },
+    {
+      "id": "litz-wire-losses-with-fem-and-matlab",
+      "name": "Litz Wire Losses with FEM and MATLAB",
+      "category": "Magnetics",
+      "description": "Litz Wire Losses with FEM and MATLAB",
+      "legacy": true,
+      "url": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab",
+      "github": "ethz-pes/litz_wire_losses_fem_matlab",
+      "links": [
+        "https://github.com/ethz-pes/litz_wire_losses_fem_matlab"
+      ],
+      "interfaces": [
+        "matlab"
+      ],
+      "interface_evidence": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab",
+      "license": "BSD-2-Clause",
+      "license_evidence": "https://api.github.com/repos/ethz-pes/litz_wire_losses_fem_matlab",
+      "licence_class": "open_source",
+      "limitations": [
+        "Source availability does not remove the MATLAB runtime licence requirement; Octave compatibility has not been established."
+      ],
+      "maintenance": {
+        "status": "historical_review",
+        "reason": "Last observed default-branch commit 558 days old; age alone does not prove abandonment.",
+        "evidence": {
+          "repository": "ethz-pes/litz_wire_losses_fem_matlab",
+          "status": "observed",
+          "canonical_url": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab",
+          "archived": false,
+          "pushed_at": "2025-03-28T14:05:09Z",
+          "default_branch": "master",
+          "license": "BSD-2-Clause",
+          "commit": "952503bee97c400de667acb7c7c850c6fe9a62a1",
+          "committed_at": "2025-03-28T14:05:09Z",
+          "source": "https://api.github.com/repos/ethz-pes/litz_wire_losses_fem_matlab"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/ethz-pes/litz_wire_losses_fem_matlab"
+        }
+      ]
+    },
+    {
+      "id": "magnet",
+      "name": "Magnet",
+      "category": "Magnetics",
+      "description": "Data Driven Methods for Magnetic Core Loss Modeling",
+      "legacy": true,
+      "url": "https://mag-net.princeton.edu/",
+      "github": "PrincetonUniversity/Magnet",
+      "links": [
+        "https://mag-net.princeton.edu/",
+        "https://github.com/PrincetonUniversity/Magnet"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://mag-net.princeton.edu/",
+      "license": "MIT",
+      "license_evidence": "https://api.github.com/repos/PrincetonUniversity/Magnet",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 148 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "PrincetonUniversity/Magnet",
+          "status": "observed",
+          "canonical_url": "https://github.com/PrincetonUniversity/magnet",
+          "archived": false,
+          "pushed_at": "2026-05-12T01:26:57Z",
+          "default_branch": "main",
+          "license": "MIT",
+          "commit": "8a6892e91ac622e42f8b9182a6dfe9094ceea97a",
+          "committed_at": "2026-05-12T01:26:57Z",
+          "source": "https://api.github.com/repos/PrincetonUniversity/Magnet"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://mag-net.princeton.edu/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://mag-net.princeton.edu/"
+        },
+        {
+          "url": "https://github.com/PrincetonUniversity/Magnet",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/PrincetonUniversity/Magnet"
+        }
+      ]
+    },
+    {
+      "id": "magnetic-components-toolbox-matlab",
+      "name": "Magnetic Components Toolbox MATLAB",
+      "category": "Magnetics",
+      "description": "MATLAB Toolbox for Power Magnetics: Model and Optimization",
+      "legacy": true,
+      "url": "https://github.com/otvam/magnetic_components_toolbox_matlab",
+      "github": "otvam/magnetic_components_toolbox_matlab",
+      "links": [
+        "https://github.com/otvam/magnetic_components_toolbox_matlab"
+      ],
+      "interfaces": [
+        "matlab"
+      ],
+      "interface_evidence": "https://github.com/otvam/magnetic_components_toolbox_matlab",
+      "license": "BSD-2-Clause",
+      "license_evidence": "https://api.github.com/repos/otvam/magnetic_components_toolbox_matlab",
+      "licence_class": "open_source",
+      "limitations": [
+        "Source availability does not remove the MATLAB runtime licence requirement; Octave compatibility has not been established."
+      ],
+      "maintenance": {
+        "status": "historical_review",
+        "reason": "Last observed default-branch commit 474 days old; age alone does not prove abandonment.",
+        "evidence": {
+          "repository": "otvam/magnetic_components_toolbox_matlab",
+          "status": "observed",
+          "canonical_url": "https://github.com/otvam/magnetic_components_toolbox_matlab",
+          "archived": false,
+          "pushed_at": "2025-06-20T02:48:48Z",
+          "default_branch": "master",
+          "license": "BSD-2-Clause",
+          "commit": "999d125e6bddd835c3e405ace3bce089dd8e3cb6",
+          "committed_at": "2025-06-20T02:48:45Z",
+          "source": "https://api.github.com/repos/otvam/magnetic_components_toolbox_matlab"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/otvam/magnetic_components_toolbox_matlab",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/otvam/magnetic_components_toolbox_matlab"
+        }
+      ]
+    },
+    {
+      "id": "magnetic-mirroring-method-with-matlab",
+      "name": "Magnetic Mirroring Method with MATLAB",
+      "category": "Magnetics",
+      "description": "Magnetic Mirroring Method with MATLAB",
+      "legacy": true,
+      "url": "https://github.com/ethz-pes/mirroring_method_matlab",
+      "github": "ethz-pes/mirroring_method_matlab",
+      "links": [
+        "https://github.com/ethz-pes/mirroring_method_matlab"
+      ],
+      "interfaces": [
+        "matlab"
+      ],
+      "interface_evidence": "https://github.com/ethz-pes/mirroring_method_matlab",
+      "license": "BSD-2-Clause",
+      "license_evidence": "https://api.github.com/repos/ethz-pes/mirroring_method_matlab",
+      "licence_class": "open_source",
+      "limitations": [
+        "Source availability does not remove the MATLAB runtime licence requirement; Octave compatibility has not been established."
+      ],
+      "maintenance": {
+        "status": "historical_review",
+        "reason": "Last observed default-branch commit 545 days old; age alone does not prove abandonment.",
+        "evidence": {
+          "repository": "ethz-pes/mirroring_method_matlab",
+          "status": "observed",
+          "canonical_url": "https://github.com/ethz-pes/mirroring_method_matlab",
+          "archived": false,
+          "pushed_at": "2025-04-10T04:24:00Z",
+          "default_branch": "master",
+          "license": "BSD-2-Clause",
+          "commit": "c0bfccb1d8727e3d8e9de15febc3bb6f22ce16c9",
+          "committed_at": "2025-04-10T04:23:58Z",
+          "source": "https://api.github.com/repos/ethz-pes/mirroring_method_matlab"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/ethz-pes/mirroring_method_matlab",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/ethz-pes/mirroring_method_matlab"
+        }
+      ]
+    },
+    {
+      "id": "motulator",
+      "name": "motulator",
+      "category": "Circuit Simulation and Calculation",
+      "description": "motulator is an open-source motor drive simulator in Python. It contains models for induction machines, synchronous reluctance machines, and permanent-magnet synchronous machines as well as various control methods as examples.",
+      "legacy": true,
+      "url": "https://github.com/Aalto-Electric-Drives/motulator",
+      "github": "Aalto-Electric-Drives/motulator",
+      "links": [
+        "https://github.com/Aalto-Electric-Drives/motulator",
+        "https://aalto-electric-drives.github.io/motulator/",
+        "https://aalto-electric-drives.github.io/motulator/auto_examples/index.html"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://github.com/Aalto-Electric-Drives/motulator",
+      "license": "MIT",
+      "license_evidence": "https://api.github.com/repos/Aalto-Electric-Drives/motulator",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 1 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "Aalto-Electric-Drives/motulator",
+          "status": "observed",
+          "canonical_url": "https://github.com/Aalto-Electric-Drives/motulator",
+          "archived": false,
+          "pushed_at": "2026-10-06T19:30:53Z",
+          "default_branch": "main",
+          "license": "MIT",
+          "commit": "9bd7eb1cb258334ce7fd6c4976a884aa613288a6",
+          "committed_at": "2026-10-06T18:51:24Z",
+          "source": "https://api.github.com/repos/Aalto-Electric-Drives/motulator"
+        }
+      },
+      "link_status": "broken",
+      "link_evidence": [
+        {
+          "url": "https://github.com/Aalto-Electric-Drives/motulator",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/Aalto-Electric-Drives/motulator"
+        },
+        {
+          "url": "https://aalto-electric-drives.github.io/motulator/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://aalto-electric-drives.github.io/motulator/"
+        },
+        {
+          "url": "https://aalto-electric-drives.github.io/motulator/auto_examples/index.html",
+          "status": "broken",
+          "http_status": 404
+        }
+      ]
+    },
+    {
+      "id": "ngspice",
+      "name": "ngspice",
+      "category": "circuit-simulation",
+      "description": "circuit-simulation",
+      "legacy": false,
+      "url": "https://ngspice.sourceforge.io/",
+      "github": "ngspice/ngspice",
+      "links": [
+        "https://ngspice.sourceforge.io/",
+        "https://github.com/ngspice/ngspice",
+        "https://ngspice.sourceforge.io/devel.html",
+        "https://ngspice.sourceforge.io/docs.html"
+      ],
+      "interfaces": [
+        "cli",
+        "shared-library",
+        "netlist"
+      ],
+      "interface_evidence": "https://ngspice.sourceforge.io/docs.html",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://ngspice.sourceforge.io/devel.html",
+      "licence_class": "open_source",
+      "limitations": [
+        "Device model dialects require checks; component licences differ.",
+        "GitHub repository is a historical mirror; official SourceForge documentation lists newer maintained releases. Do not infer abandonment from mirror activity."
+      ],
+      "maintenance": {
+        "status": "historical_review",
+        "reason": "Last observed default-branch commit 4231 days old; age alone does not prove abandonment.",
+        "evidence": {
+          "repository": "ngspice/ngspice",
+          "status": "observed",
+          "canonical_url": "https://github.com/ngspice/ngspice",
+          "archived": false,
+          "pushed_at": "2024-06-09T22:13:17Z",
+          "default_branch": "master",
+          "license": "NOASSERTION",
+          "commit": "032b1c32c4dbad45ff132bcfac1dbecadbd8abb0",
+          "committed_at": "2015-03-08T16:54:49Z",
+          "source": "https://api.github.com/repos/ngspice/ngspice"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://ngspice.sourceforge.io/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://ngspice.sourceforge.io/"
+        },
+        {
+          "url": "https://github.com/ngspice/ngspice",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/ngspice/ngspice"
+        },
+        {
+          "url": "https://ngspice.sourceforge.io/devel.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://ngspice.sourceforge.io/devel.html"
+        },
+        {
+          "url": "https://ngspice.sourceforge.io/docs.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://ngspice.sourceforge.io/docs.html"
+        }
+      ]
+    },
+    {
+      "id": "numpy",
+      "name": "NumPy",
+      "category": "numerical-analysis",
+      "description": "numerical-analysis",
+      "legacy": false,
+      "url": "https://numpy.org/",
+      "github": "numpy/numpy",
+      "links": [
+        "https://numpy.org/",
+        "https://github.com/numpy/numpy",
+        "https://numpy.org/doc/"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://numpy.org/doc/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/numpy/numpy",
+      "licence_class": "open_source",
+      "limitations": [
+        "Array computation requires an independently justified physical model."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 1 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "numpy/numpy",
+          "status": "observed",
+          "canonical_url": "https://github.com/numpy/numpy",
+          "archived": false,
+          "pushed_at": "2026-10-06T20:01:38Z",
+          "default_branch": "main",
+          "license": "NOASSERTION",
+          "commit": "286e698f1dcf601648b165f48485ceaeec9c6231",
+          "committed_at": "2026-10-06T20:01:30Z",
+          "source": "https://api.github.com/repos/numpy/numpy"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://numpy.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://numpy.org/"
+        },
+        {
+          "url": "https://github.com/numpy/numpy",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/numpy/numpy"
+        },
+        {
+          "url": "https://numpy.org/doc/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://numpy.org/doc/"
+        }
+      ]
+    },
+    {
+      "id": "octave",
+      "name": "Octave",
+      "category": "Calculation and Automatisation",
+      "description": "Numerical programming language",
+      "legacy": true,
+      "url": "https://www.gnu.org/software/octave/",
+      "github": null,
+      "links": [
+        "https://www.gnu.org/software/octave/",
+        "https://en.wikipedia.org/wiki/GNU_Octave",
+        "https://gitlab.com/gnu-octave/octave",
+        "https://octave.org/license.html"
+      ],
+      "interfaces": [
+        "cli",
+        "octave"
+      ],
+      "interface_evidence": "https://www.gnu.org/software/octave/",
+      "license": "GPL-3.0-or-later",
+      "license_evidence": "https://octave.org/license.html",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {}
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.gnu.org/software/octave/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://octave.org/"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/GNU_Octave",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://en.wikipedia.org/wiki/GNU_Octave"
+        },
+        {
+          "url": "https://gitlab.com/gnu-octave/octave",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://gitlab.com/gnu-octave/octave"
+        },
+        {
+          "url": "https://octave.org/license.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://octave.org/copyright/"
+        }
+      ]
+    },
+    {
+      "id": "om",
+      "name": "OM",
+      "category": "Magnetics",
+      "description": "OpenMagnetics (OM) is a project providing a common language for defining any kind of magnetic for power electronics.",
+      "legacy": true,
+      "url": "https://openmagnetics.com/",
+      "github": "OpenMagnetics/MAS",
+      "links": [
+        "https://openmagnetics.com/",
+        "https://github.com/OpenMagnetics/MAS"
+      ],
+      "interfaces": [
+        "json-schema"
+      ],
+      "interface_evidence": "https://openmagnetics.com/",
+      "license": "Apache-2.0",
+      "license_evidence": "https://api.github.com/repos/OpenMagnetics/MAS",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 4 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "OpenMagnetics/MAS",
+          "status": "observed",
+          "canonical_url": "https://github.com/Power-Supply-Manufacturers-Association/MAS",
+          "archived": false,
+          "pushed_at": "2026-10-03T18:42:05Z",
+          "default_branch": "main",
+          "license": "Apache-2.0",
+          "commit": "0a7ba58f542049fd073041b3b5e4bac431ed6292",
+          "committed_at": "2026-10-03T13:07:37Z",
+          "source": "https://api.github.com/repos/OpenMagnetics/MAS"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://openmagnetics.com/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://openmagnetics.com/"
+        },
+        {
+          "url": "https://github.com/OpenMagnetics/MAS",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/Power-Supply-Manufacturers-Association/MAS"
+        }
+      ]
+    },
+    {
+      "id": "onelab",
+      "name": "ONELAB",
+      "category": "Magnetics",
+      "description": "ONELAB is an open-source, lightweight interface to finite element software",
+      "legacy": true,
+      "url": "https://www.onelab.info/",
+      "github": null,
+      "links": [
+        "https://www.onelab.info/",
+        "https://gitlab.onelab.info/explore/projects"
+      ],
+      "interfaces": [
+        "cli",
+        "parameter-api"
+      ],
+      "interface_evidence": "https://www.onelab.info/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://www.onelab.info/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Gmsh/GetDP interface ecosystem, not a duplicate solver. Licence and activity vary by component."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {}
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.onelab.info/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.onelab.info/"
+        },
+        {
+          "url": "https://gitlab.onelab.info/explore/projects",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://gitlab.onelab.info/explore/projects"
+        }
+      ]
+    },
+    {
+      "id": "openems",
+      "name": "openEMS",
+      "category": "high-frequency-em",
+      "description": "high-frequency-em",
+      "legacy": false,
+      "url": "https://www.openems.de/",
+      "github": "thliebig/openEMS",
+      "links": [
+        "https://www.openems.de/",
+        "https://github.com/thliebig/openEMS",
+        "https://docs.openems.de/"
+      ],
+      "interfaces": [
+        "python",
+        "octave",
+        "cli"
+      ],
+      "interface_evidence": "https://docs.openems.de/",
+      "license": "GPL-3.0-or-later",
+      "license_evidence": "https://github.com/thliebig/openEMS",
+      "licence_class": "open_source",
+      "limitations": [
+        "FDTD mesh/time-step constraints; not a drop-in magnetic core-loss solver."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 5 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "thliebig/openEMS",
+          "status": "observed",
+          "canonical_url": "https://github.com/thliebig/openEMS",
+          "archived": false,
+          "pushed_at": "2026-10-02T20:35:19Z",
+          "default_branch": "master",
+          "license": "GPL-3.0",
+          "commit": "6761a36e28567129d833de2ae7df4fb102dc5ceb",
+          "committed_at": "2026-10-02T20:21:26Z",
+          "source": "https://api.github.com/repos/thliebig/openEMS"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.openems.de/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.openems.de/"
+        },
+        {
+          "url": "https://github.com/thliebig/openEMS",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/thliebig/openEMS"
+        },
+        {
+          "url": "https://docs.openems.de/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://docs.openems.de/en/latest/"
+        }
+      ]
+    },
+    {
+      "id": "openmodelica",
+      "name": "OpenModelica",
+      "category": "system-simulation",
+      "description": "system-simulation",
+      "legacy": false,
+      "url": "https://openmodelica.org/",
+      "github": "OpenModelica/OpenModelica",
+      "links": [
+        "https://openmodelica.org/",
+        "https://github.com/OpenModelica/OpenModelica",
+        "https://openmodelica.org/osmc-pl/osmc-pl-1.8.txt",
+        "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/"
+      ],
+      "interfaces": [
+        "cli",
+        "modelica",
+        "python-ompython"
+      ],
+      "interface_evidence": "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://openmodelica.org/osmc-pl/osmc-pl-1.8.txt",
+      "licence_class": "unverified",
+      "limitations": [
+        "Check OSMC-PL and component/library terms; model libraries carry independent rights."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 1 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "OpenModelica/OpenModelica",
+          "status": "observed",
+          "canonical_url": "https://github.com/OpenModelica/OpenModelica",
+          "archived": false,
+          "pushed_at": "2026-10-06T18:29:22Z",
+          "default_branch": "master",
+          "license": "NOASSERTION",
+          "commit": "6e251077f0cf1175f462591d81d863e57f2bc346",
+          "committed_at": "2026-10-06T18:24:56Z",
+          "source": "https://api.github.com/repos/OpenModelica/OpenModelica"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://openmodelica.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://openmodelica.org/"
+        },
+        {
+          "url": "https://github.com/OpenModelica/OpenModelica",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/OpenModelica/OpenModelica"
+        },
+        {
+          "url": "https://openmodelica.org/osmc-pl/osmc-pl-1.8.txt",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://openmodelica.org/osmc-pl/osmc-pl-1.8.txt"
+        },
+        {
+          "url": "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/"
+        }
+      ]
+    },
+    {
+      "id": "pygeckocircuits2",
+      "name": "PyGeckoCircuits2",
+      "category": "Circuit Simulation and Calculation",
+      "description": "A Python wrapper for GeckoCIRCUITS.",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/pygeckocircuits2",
+      "github": "upb-lea/pygeckocircuits2",
+      "links": [
+        "https://github.com/upb-lea/pygeckocircuits2",
+        "https://upb-lea.github.io/pygeckocircuits2/intro.html"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/pygeckocircuits2",
+      "license": "NOASSERTION",
+      "license_evidence": "https://github.com/upb-lea/pygeckocircuits2",
+      "licence_class": "unverified",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "historical_review",
+        "reason": "Last observed default-branch commit 783 days old; age alone does not prove abandonment.",
+        "evidence": {
+          "repository": "upb-lea/pygeckocircuits2",
+          "status": "observed",
+          "canonical_url": "https://github.com/upb-lea/pygeckocircuits2",
+          "archived": false,
+          "pushed_at": "2024-08-15T09:40:16Z",
+          "default_branch": "main",
+          "license": "NOASSERTION",
+          "commit": "015ad0fc675a9f86f169544c1512dd8cde466671",
+          "committed_at": "2024-08-15T09:39:45Z",
+          "source": "https://api.github.com/repos/upb-lea/pygeckocircuits2"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://github.com/upb-lea/pygeckocircuits2",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/upb-lea/pygeckocircuits2"
+        },
+        {
+          "url": "https://upb-lea.github.io/pygeckocircuits2/intro.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://upb-lea.github.io/pygeckocircuits2/intro.html"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "Calculation and Automatisation",
+      "description": "Programming language",
+      "legacy": true,
+      "url": "https://www.python.org/",
+      "github": "python/cpython",
+      "links": [
+        "https://www.python.org/",
+        "https://en.wikipedia.org/wiki/Python_(programming_language)",
+        "https://github.com/python/",
+        "https://docs.python.org/3/license.html"
+      ],
+      "interfaces": [
+        "cli",
+        "python"
+      ],
+      "interface_evidence": "https://www.python.org/",
+      "license": "Python-2.0",
+      "license_evidence": "https://docs.python.org/3/license.html",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 0 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "python/cpython",
+          "status": "observed",
+          "canonical_url": "https://github.com/python/cpython",
+          "archived": false,
+          "pushed_at": "2026-10-07T02:52:59Z",
+          "default_branch": "main",
+          "license": "NOASSERTION",
+          "commit": "2639fd65ff8e0c1949c480a8e670fe9c2467a1f8",
+          "committed_at": "2026-10-07T02:52:58Z",
+          "source": "https://api.github.com/repos/python/cpython"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.python.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.python.org/"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+        },
+        {
+          "url": "https://github.com/python/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/python/"
+        },
+        {
+          "url": "https://docs.python.org/3/license.html",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://docs.python.org/3/license.html"
+        }
+      ]
+    },
+    {
+      "id": "python-control",
+      "name": "python-control",
+      "category": "control",
+      "description": "control",
+      "legacy": false,
+      "url": "https://python-control.org/",
+      "github": "python-control/python-control",
+      "links": [
+        "https://python-control.org/",
+        "https://github.com/python-control/python-control",
+        "https://python-control.readthedocs.io/"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://python-control.readthedocs.io/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/python-control/python-control",
+      "licence_class": "open_source",
+      "limitations": [
+        "Linear averaged analysis does not resolve switching or saturation."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 8 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "python-control/python-control",
+          "status": "observed",
+          "canonical_url": "https://github.com/python-control/python-control",
+          "archived": false,
+          "pushed_at": "2026-09-29T07:22:28Z",
+          "default_branch": "main",
+          "license": "BSD-3-Clause",
+          "commit": "b4cf7360138985f84afe299337ef9ee6c25e9c38",
+          "committed_at": "2026-09-29T07:22:27Z",
+          "source": "https://api.github.com/repos/python-control/python-control"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://python-control.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://python-control.readthedocs.io/en/0.10.2/"
+        },
+        {
+          "url": "https://github.com/python-control/python-control",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/python-control/python-control"
+        },
+        {
+          "url": "https://python-control.readthedocs.io/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://python-control.readthedocs.io/en/0.10.2/"
+        }
+      ]
+    },
+    {
+      "id": "scilab-xcos",
+      "name": "Scilab/Xcos",
+      "category": "Calculation and Automatisation",
+      "description": "Numerical programming language and dynamic system simulator",
+      "legacy": true,
+      "url": "https://www.scilab.org/",
+      "github": null,
+      "links": [
+        "https://www.scilab.org/",
+        "https://en.wikipedia.org/wiki/Scilab",
+        "https://gitlab.com/scilab/scilab/"
+      ],
+      "interfaces": [
+        "cli",
+        "scilab"
+      ],
+      "interface_evidence": "https://www.scilab.org/",
+      "license": "GPL-2.0-only",
+      "license_evidence": "https://www.scilab.org/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release.",
+        "Current Scilab licence stated at https://www.scilab.org/about/scilab-open-source-software; older versions differ."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {}
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.scilab.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.scilab.org/"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Scilab",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://en.wikipedia.org/wiki/Scilab"
+        },
+        {
+          "url": "https://gitlab.com/scilab/scilab/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://gitlab.com/scilab/scilab/"
+        }
+      ]
+    },
+    {
+      "id": "scipy",
+      "name": "SciPy",
+      "category": "optimisation",
+      "description": "optimisation",
+      "legacy": false,
+      "url": "https://scipy.org/",
+      "github": "scipy/scipy",
+      "links": [
+        "https://scipy.org/",
+        "https://github.com/scipy/scipy",
+        "https://docs.scipy.org/doc/scipy/"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://docs.scipy.org/doc/scipy/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/scipy/scipy",
+      "licence_class": "open_source",
+      "limitations": [
+        "Optimisation convergence does not prove global optimality."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 1 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "scipy/scipy",
+          "status": "observed",
+          "canonical_url": "https://github.com/scipy/scipy",
+          "archived": false,
+          "pushed_at": "2026-10-06T21:18:42Z",
+          "default_branch": "main",
+          "license": "BSD-3-Clause",
+          "commit": "0aa66630fc0717788fd39b25bdaecfcc8d7002cd",
+          "committed_at": "2026-10-06T21:18:42Z",
+          "source": "https://api.github.com/repos/scipy/scipy"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://scipy.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://scipy.org/"
+        },
+        {
+          "url": "https://github.com/scipy/scipy",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/scipy/scipy"
+        },
+        {
+          "url": "https://docs.scipy.org/doc/scipy/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://docs.scipy.org/doc/scipy/"
+        }
+      ]
+    },
+    {
+      "id": "sparselizard",
+      "name": "Sparselizard",
+      "category": "Magnetics",
+      "description": "FEM simulation software",
+      "legacy": true,
+      "url": "https://www.sparselizard.org/",
+      "github": "halbux/sparselizard",
+      "links": [
+        "https://www.sparselizard.org/",
+        "https://github.com/halbux/sparselizard/"
+      ],
+      "interfaces": [
+        "c++"
+      ],
+      "interface_evidence": "https://www.sparselizard.org/",
+      "license": "GPL-2.0-or-later",
+      "license_evidence": "https://www.sparselizard.org/",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 61 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "halbux/sparselizard",
+          "status": "observed",
+          "canonical_url": "https://github.com/halbux/sparselizard",
+          "archived": false,
+          "pushed_at": "2026-08-07T16:16:30Z",
+          "default_branch": "master",
+          "license": "NOASSERTION",
+          "commit": "e536ff15905556400909b47c4ff3df405e288b44",
+          "committed_at": "2026-08-07T16:16:30Z",
+          "source": "https://api.github.com/repos/halbux/sparselizard"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.sparselizard.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.sparselizard.org/"
+        },
+        {
+          "url": "https://github.com/halbux/sparselizard/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/halbux/sparselizard/"
+        }
+      ]
+    },
+    {
+      "id": "sympy",
+      "name": "SymPy",
+      "category": "symbolic-analysis",
+      "description": "symbolic-analysis",
+      "legacy": false,
+      "url": "https://www.sympy.org/",
+      "github": "sympy/sympy",
+      "links": [
+        "https://www.sympy.org/",
+        "https://github.com/sympy/sympy",
+        "https://docs.sympy.org/"
+      ],
+      "interfaces": [
+        "python"
+      ],
+      "interface_evidence": "https://docs.sympy.org/",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/sympy/sympy",
+      "licence_class": "open_source",
+      "limitations": [
+        "Symbolic assumptions and units need explicit checking."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 2 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "sympy/sympy",
+          "status": "observed",
+          "canonical_url": "https://github.com/sympy/sympy",
+          "archived": false,
+          "pushed_at": "2026-10-05T04:38:31Z",
+          "default_branch": "master",
+          "license": "NOASSERTION",
+          "commit": "319ea7a6186edf88bc23d502917242b10314ae51",
+          "committed_at": "2026-10-05T04:38:30Z",
+          "source": "https://api.github.com/repos/sympy/sympy"
+        }
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://www.sympy.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://www.sympy.org/"
+        },
+        {
+          "url": "https://github.com/sympy/sympy",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/sympy/sympy"
+        },
+        {
+          "url": "https://docs.sympy.org/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://docs.sympy.org/"
+        }
+      ]
+    },
+    {
+      "id": "transistordatabase",
+      "name": "transistordatabase",
+      "category": "Circuit Simulation and Calculation",
+      "description": "A unified software engineering tool for managing and evaluating power transistors",
+      "legacy": true,
+      "url": "https://github.com/upb-lea/transistordatabase",
+      "github": "upb-lea/transistordatabase",
+      "links": [
+        "https://github.com/upb-lea/transistordatabase",
+        "https://upb-lea.github.io/transistordatabase/main/index.html",
+        "https://pypi.org/project/transistordatabase/"
+      ],
+      "interfaces": [
+        "python",
+        "json"
+      ],
+      "interface_evidence": "https://github.com/upb-lea/transistordatabase",
+      "license": "GPL-3.0",
+      "license_evidence": "https://api.github.com/repos/upb-lea/transistordatabase",
+      "licence_class": "open_source",
+      "limitations": [
+        "Interface and licence must be checked against the selected release."
+      ],
+      "maintenance": {
+        "status": "recent_activity",
+        "reason": "Default-branch commit observed 65 days before review; no support guarantee.",
+        "evidence": {
+          "repository": "upb-lea/transistordatabase",
+          "status": "observed",
+          "canonical_url": "https://github.com/upb-lea/transistordatabase",
+          "archived": false,
+          "pushed_at": "2026-08-03T14:42:40Z",
+          "default_branch": "main",
+          "license": "GPL-3.0",
+          "commit": "ccd48b310e713e326778cd2a68f82d2a9f074d07",
+          "committed_at": "2026-08-03T14:42:36Z",
+          "source": "https://api.github.com/repos/upb-lea/transistordatabase"
+        }
+      },
+      "link_status": "broken",
+      "link_evidence": [
+        {
+          "url": "https://github.com/upb-lea/transistordatabase",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://github.com/upb-lea/transistordatabase"
+        },
+        {
+          "url": "https://upb-lea.github.io/transistordatabase/main/index.html",
+          "status": "broken",
+          "http_status": 404
+        },
+        {
+          "url": "https://pypi.org/project/transistordatabase/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://pypi.org/project/transistordatabase/"
+        }
+      ]
+    },
+    {
+      "id": "ultrazohm",
+      "name": "UltraZohm",
+      "category": "Control Platform",
+      "description": "Open Source Rapid Control Prototyping Platform",
+      "legacy": true,
+      "url": "https://docs.ultrazohm.com/",
+      "github": null,
+      "links": [
+        "https://docs.ultrazohm.com/",
+        "https://bitbucket.org/ultrazohm/ultrazohm_sw/"
+      ],
+      "interfaces": [
+        "firmware",
+        "hardware"
+      ],
+      "interface_evidence": "https://docs.ultrazohm.com/",
+      "license": "NOASSERTION",
+      "license_evidence": "https://docs.ultrazohm.com/",
+      "licence_class": "unverified",
+      "limitations": [
+        "Hardware build/purchase and target-specific toolchains required; software simulation does not replace this hardware workflow."
+      ],
+      "maintenance": {
+        "status": "unknown",
+        "reason": "No dated code-activity evidence in snapshot; website availability is not maintenance evidence.",
+        "evidence": {}
+      },
+      "link_status": "reachable",
+      "link_evidence": [
+        {
+          "url": "https://docs.ultrazohm.com/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://ultrazohm.org/"
+        },
+        {
+          "url": "https://bitbucket.org/ultrazohm/ultrazohm_sw/",
+          "status": "reachable",
+          "http_status": 200,
+          "final_url": "https://bitbucket.org/ultrazohm/ultrazohm_sw/"
+        }
+      ]
+    }
+  ],
+  "connectors": [
+    {
+      "id": "freecad-mcp-neka-nat",
+      "tool": "freecad",
+      "github": "neka-nat/freecad-mcp",
+      "repository": "https://github.com/neka-nat/freecad-mcp",
+      "links": [
+        "https://github.com/neka-nat/freecad-mcp"
+      ],
+      "license": "MIT",
+      "status": "evaluated",
+      "supported_versions": "FreeCAD plus addon; no comprehensive upstream tested-version matrix established",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "api_surface": [
+        "model editing",
+        "Python execution",
+        "document inspection",
+        "FEM orchestration"
+      ],
+      "security_notes": [
+        "RPC defaults to localhost; Python execution inherits process and filesystem privileges.",
+        "Pin a reviewed commit and dependencies; keep the RPC port local and use scratch documents."
+      ],
+      "direct_alternative": "FreeCAD Python / FreeCADCmd for deterministic non-GUI modelling",
+      "execution_validation": "not installed or executed",
+      "decision": "candidate only; direct API/CLI is the v0.1 default",
+      "maintenance_evidence": {
+        "repository": "neka-nat/freecad-mcp",
+        "status": "observed",
+        "canonical_url": "https://github.com/neka-nat/freecad-mcp",
+        "archived": false,
+        "pushed_at": "2026-10-06T07:46:50Z",
+        "default_branch": "main",
+        "license": "MIT",
+        "commit": "8e14693a9b46b50a3656cbdd9c2922456bb3bd06",
+        "committed_at": "2026-10-06T07:46:50Z",
+        "source": "https://api.github.com/repos/neka-nat/freecad-mcp"
+      }
+    },
+    {
+      "id": "kicad-mcp-mixelpixx",
+      "tool": "kicad",
+      "github": "mixelpixx/KiCAD-MCP-Server",
+      "repository": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+      "links": [
+        "https://github.com/mixelpixx/KiCAD-MCP-Server"
+      ],
+      "license": "MIT",
+      "status": "evaluated",
+      "supported_versions": "KiCad 9+; upstream quick start requires Node 18+ and Python 3.11+",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "api_surface": [
+        "schematic and PCB edits",
+        "ERC/DRC",
+        "exports",
+        "optional parts/routing integrations"
+      ],
+      "security_notes": [
+        "May modify boards/libraries and spawn subprocesses; optional integrations have network access.",
+        "Pin a reviewed release, restrict workspace and disable unused services; independently review ERC/DRC."
+      ],
+      "direct_alternative": "kicad-cli ERC/DRC/export; KiCad 9+ IPC for supported live board edits",
+      "execution_validation": "not installed or executed",
+      "decision": "candidate only; direct API/CLI is the v0.1 default",
+      "maintenance_evidence": {
+        "repository": "mixelpixx/KiCAD-MCP-Server",
+        "status": "observed",
+        "canonical_url": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+        "archived": false,
+        "pushed_at": "2026-10-01T13:44:29Z",
+        "default_branch": "main",
+        "license": "MIT",
+        "commit": "cbb59a6203997f5e916be7e0480d63fe5519134a",
+        "committed_at": "2026-10-01T13:44:21Z",
+        "source": "https://api.github.com/repos/mixelpixx/KiCAD-MCP-Server"
+      }
+    }
+  ]
+}

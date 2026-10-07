@@ -1,5 +1,29 @@
 # Open-Source-Power-Electronic-Tools
-Lists open source tools for power electronic engineers.
+Community-curated engineering tools for power electronics and the wider AIPE
+(AI for Power Engineering) ecosystem. Historical entries and screenshots are
+preserved; inclusion does not certify maintenance, licensing or engineering results.
+
+## Machine-readable discovery and maintenance
+
+The [dated audit](generated/audit.md) covers all 36 original entries plus 11
+additions, with [JSON evidence](generated/audit.json), per-link observations,
+licence uncertainty, interfaces and connector evaluations. [Contributing](CONTRIBUTING.md)
+explains the reproducible offline build and opt-in refresh.
+
+This is the external community catalogue. [AIPE-Registry](https://github.com/FulongLi/AIPE-Registry)
+indexes AIPE capabilities and supported integrations; it does not import every
+catalogue entry. Our own catalogue capability is described in [aipe.yaml](aipe.yaml).
+
+Open execution paths include Python / NumPy / SciPy / python-control / SymPy,
+Jupyter, ngspice, FreeCAD, KiCad, Gmsh with a suitable solver, CalculiX and openEMS.
+See the audit for capability boundaries. OpenModelica is also evaluated, with
+component/library licensing explicitly left for release-specific review.
+
+FEMM is retained as **source-available under Aladdin**, rather than certified OSI
+open source. Some historically listed MATLAB projects still need a commercial
+runtime. Missing licence evidence is marked `NOASSERTION`; an old commit is not
+proof of abandonment. MCP candidates are evaluated only; none is installed or
+claimed as supported by this catalogue.
 
 Missing Tool? -> Open an Issue or open a pull request.
 
